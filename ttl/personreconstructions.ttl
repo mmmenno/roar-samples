@@ -1,0 +1,114 @@
+
+@prefix :      		<http://gendata.denengelse.nl/> .
+@prefix rdf:		<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:      	<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema:		<http://schema.org/> .
+@prefix bio: 		<http://purl.org/vocab/bio/0.1/> .
+@prefix sem: 		<http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix roar:		<https://w3id.org/roar#> .
+@prefix prov:		<http://www.w3.org/ns/prov#> .
+@prefix xsd:		<http://www.w3.org/2001/XMLSchema#> .
+@prefix geo: 		<http://www.opengis.net/ont/geosparql#> .
+@prefix pnv:		<https://w3id.org/pnv#> .
+
+
+:pr1 a roar:PersonReconstruction ;
+	rdfs:label "Katharina Samonig" ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Katharina" ;
+		pnv:baseSurname "Samonig" ;
+		pnv:literalName "Katharina Samonig" ;
+	] ;
+	bio:birth [
+		a bio:Birth ;
+		sem:hasTimeStamp "1914-02-23"^^xsd:date ;
+		bio:place <http://sws.geonames.org/2772043/> ;
+		bio:principal :pr-c3ce13d9 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Göritschach (bij Villach)" ;
+		geo:geoWithin <https://www.geonames.org/2778326/> ;
+		schema:position "1"^^xsd:integer ;
+		sem:hasEarliestEndTimeStamp "1933-12-07"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Beethovenstraat 36-boven" ;
+		geo:geoWithin <https://adamlink.nl/geo/address/A172897> ;
+		schema:position "2"^^xsd:integer ;
+		sem:hasLatestBeginTimeStamp "1933-12-07"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1935-05-06"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Stadionkade 17-III" ;
+		geo:geoWithin <https://adamlink.nl/geo/address/A173947> ;
+		schema:position "3"^^xsd:integer ;
+		sem:hasLatestBeginTimeStamp "1935-05-06"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1938-01-13"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Parnassusweg 15-II" ;
+		geo:geoWithin <https://adamlink.nl/geo/address/A174219> ;
+		schema:position "4"^^xsd:integer ;
+		sem:hasLatestBeginTimeStamp "1938-01-13"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1938-03-08"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Minervalaan 78-I" ;
+		geo:geoWithin <https://adamlink.nl/geo/address/A173989> ;
+		schema:position "5"^^xsd:integer ;
+		sem:hasLatestBeginTimeStamp "1938-03-08"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	prov:wasDerivedFrom :po1, :po4, :po7, :po8, :lo1, :lo3, :lo5, :lo6, :lo10, :lo11, :lo15, :lo16, :lo17 .
+
+:pr2 a roar:PersonReconstruction ;
+	rdfs:label "Izaäk Lob" ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Izaäk" ;
+		pnv:baseSurname "Lob" ;
+		pnv:literalName "Izaäk Lob" ;
+	] ;
+	bio:birth [
+		a bio:Birth ;
+		sem:hasTimeStamp "1861"^^xsd:gYear ;
+		bio:place <http://sws.geonames.org/2772043/> ;
+		bio:principal :pr-822808ac 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Reinier Vinkeleskade 66" ;
+		geo:geoWithin <https://adamlink.nl/geo/address/A221755> ;
+		schema:position "1"^^xsd:integer ;
+		sem:hasEarliestEndTimeStamp "1933-11-04"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Stadionkade 17-III" ;
+		geo:geoWithin <https://adamlink.nl/geo/address/A173947> ;
+		schema:position "2"^^xsd:integer ;
+		sem:hasLatestBeginTimeStamp "1933-11-04"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1937-10-30"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Nicolaas Maesstraat 122-hs" ;
+		geo:geoWithin <https://adamlink.nl/geo/address/A221704> ;
+		schema:position "3"^^xsd:integer ;
+		sem:hasLatestBeginTimeStamp "1937-10-30"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	prov:wasDerivedFrom :po3, :po5, :lo4, :lo7, :lo8, :lo9 .
+

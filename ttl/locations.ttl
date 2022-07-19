@@ -1,0 +1,64 @@
+
+@prefix :      		<http://gendata.denengelse.nl/> .
+@prefix rdf:		<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:      	<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema:		<http://schema.org/> .
+@prefix bio: 		<http://purl.org/vocab/bio/0.1/> .
+@prefix sem: 		<http://semanticweb.cs.vu.nl/2009/11/sem/> .
+@prefix roar:		<https://w3id.org/roar#> .
+@prefix prov:		<http://www.w3.org/ns/prov#> .
+@prefix xsd:		<http://www.w3.org/2001/XMLSchema#> .
+@prefix geo: 		<http://www.opengis.net/ont/geosparql#> .
+@prefix pnv:		<https://w3id.org/pnv#> .
+
+
+<http://sws.geonames.org/2772043/> a roar:Location ; 
+	geo:hasGeometry [
+		geo:asWKT "POINT(13.88333 46.55)"^^geo:wktLiteral
+	] .
+
+<https://adamlink.nl/geo/address/A172897> a roar:Location ; 
+	geo:hasGeometry [
+		geo:asWKT "POINT(4.877193 52.34935)"^^geo:wktLiteral
+	] .
+
+<https://adamlink.nl/geo/address/A173947> a roar:Location ; 
+	geo:hasGeometry [
+		geo:asWKT "POINT(4.873185 52.344916)"^^geo:wktLiteral
+	] .
+
+<https://www.geonames.org/2778326/> a roar:Location ; 
+	geo:hasGeometry [
+		geo:asWKT "POINT(13.86153 46.55355)"^^geo:wktLiteral
+	] .
+
+<https://adamlink.nl/geo/address/A221755> a roar:Location ; 
+	geo:hasGeometry [
+		geo:asWKT "POINT(4.875723  52.352224)"^^geo:wktLiteral
+	] .
+
+<https://adamlink.nl/geo/address/A221704> a roar:Location ; 
+	geo:hasGeometry [
+		geo:asWKT "POINT(4.876062 52.353757)"^^geo:wktLiteral
+	] .
+
+<https://adamlink.nl/geo/address/A174219> a roar:Location ; 
+	geo:hasGeometry [
+		geo:asWKT "POINT(4.867643 52.345714)"^^geo:wktLiteral
+	] .
+
+<https://adamlink.nl/geo/address/A173971> a roar:Location ; 
+	geo:hasGeometry [
+		geo:asWKT "POINT(4.869302 52.344529)"^^geo:wktLiteral
+	] .
+
+<https://adamlink.nl/geo/address/A221348> a roar:Location ; 
+	geo:hasGeometry [
+		geo:asWKT "POINT(4.863478 52.350779)"^^geo:wktLiteral
+	] .
+
+<https://adamlink.nl/geo/address/A173989> a roar:Location ; 
+	geo:hasGeometry [
+		geo:asWKT "POINT(4.87218 52.345505)"^^geo:wktLiteral
+	] .
+
