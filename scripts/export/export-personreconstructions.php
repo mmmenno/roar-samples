@@ -21,6 +21,10 @@ while($row = $result->fetch_assoc()){
 	$ans = array();
 	$yearsob = array();
 	$datesob = array();
+	$pob = array();
+	$yearsod = array();
+	$datesod = array();
+	$pod = array();
 
 	$derivedfrom = array();
 
@@ -41,8 +45,17 @@ while($row = $result->fetch_assoc()){
 				$datesob[] = $row2['geboortedatum'];
 			}
 		}
+		if(strlen($row2['sterfdatum'])){
+			$yearsod[] = substr($row2['sterfdatum'],0,4);
+			if(!preg_match("/[0-9]{4}-00-00/",$row2['sterfdatum'])){
+				$datesod[] = $row2['sterfdatum'];
+			}
+		}
 		if(strlen($row2['geboorteplaatsuri'])){
 			$pob[] = $row2['geboorteplaatsuri'];
+		}
+		if(strlen($row2['sterfplaatsuri'])){
+			$pod[] = $row2['sterfplaatsuri'];
 		}
 	}
 
@@ -77,6 +90,16 @@ while($row = $result->fetch_assoc()){
 
 	if(count($pob )){
 		$person['poburi'] = $pob[0];
+	}
+
+	if(count($datesod ) == 1){
+		$person['dod'] = $datesod[0];
+	}elseif(count($yearsob) == 1){
+		$person['dod'] = $yearsod[0];
+	}
+
+	if(count($pod )){
+		$person['poduri'] = $pod[0];
 	}
 
 
@@ -228,7 +251,23 @@ foreach($reconstructies as $rkey => $r){
 				if(strlen($r['poburi'])){
 			    	echo "\t\tbio:place <" . $r['poburi'] . "> ;\n";
 				}
-			    echo "\t\tbio:principal :pr-" . hash("adler32",implode("-",$r['derivedFrom'])) . " \n";
+			    echo "\t\tbio:principal :pr" . $rkey . " \n";
+			    
+			echo "\t] ;\n";
+    	}
+    	if(isset($r['dod'])){
+    		echo "\tbio:death [\n";
+			    echo "\t\ta bio:Death ;\n";
+			    if(strlen($r['dod'])==10){
+			    	echo "\t\tsem:hasTimeStamp \"" . $r['dod'] . "\"^^xsd:date ;\n";
+				}
+			    if(strlen($r['dod'])==4){
+			    	echo "\t\tsem:hasTimeStamp \"" . $r['dod'] . "\"^^xsd:gYear ;\n";
+				}
+				if(strlen($r['poduri'])){
+			    	echo "\t\tbio:place <" . $r['poduri'] . "> ;\n";
+				}
+			    echo "\t\tbio:principal :pr" . $rkey . " \n";
 			    
 			echo "\t] ;\n";
     	}

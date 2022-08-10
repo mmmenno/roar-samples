@@ -20,10 +20,16 @@ echo "
 $sql = "select * from persoonsobservaties";
 $result = $mysqli->query($sql);
 
+$docs = array();
+
 while($row = $result->fetch_assoc()){
 
 	$dob = "";
 	$yob = "";
+	$dod = "";
+	$yod = "";
+
+	$docs[$row['document']] = $row['documentlabel'];
 
 	if(strlen($row['geboortedatum'])){
 		$parts = explode("-",$row['geboortedatum']);
@@ -31,6 +37,15 @@ while($row = $result->fetch_assoc()){
 			$dob = $row['geboortedatum'];
 		}elseif($parts[1] == "00" && $parts[2] == "00"){
 			$yob = $parts[0];
+		}
+	}
+
+	if(strlen($row['sterfdatum'])){
+		$parts = explode("-",$row['sterfdatum']);
+		if($parts[1] != "00" && $parts[2] != "00"){
+			$dod = $row['sterfdatum'];
+		}elseif($parts[1] == "00" && $parts[2] == "00"){
+			$yod = $parts[0];
 		}
 	}
 
@@ -72,11 +87,35 @@ while($row = $result->fetch_assoc()){
 			    
 			echo "\t] ;\n";
     	}
+    	if(strlen($dod . $yod)){
+    		echo "\tbio:death [\n";
+			    echo "\t\ta bio:Death ;\n";
+			    if(strlen($dod)){
+			    	echo "\t\tsem:hasTimeStamp \"" . $dod . "\"^^xsd:date ;\n";
+				}
+			    if(strlen($yod)){
+			    	echo "\t\tsem:hasTimeStamp \"" . $yod . "\"^^xsd:gYear ;\n";
+				}
+				if(strlen($row['sterfplaats'])){
+			    	echo "\t\tbio:place [\n";
+			    	if(strlen($row['sterfplaatsuri'])){
+			    		echo "\t\t\trdf:value <" . $row['sterfplaatsuri'] . "> ;\n";
+			    	}
+			    	echo "\t\t\trdfs:label \"" . $row['sterfplaats'] . "\"\n";
+			    	echo "\t\t] ;\n";
+				}
+			    echo "\t\tbio:principal :po" . $row['id'] . " \n";
+			    
+			echo "\t] ;\n";
+    	}
     	echo "\troar:documentedIn <" . $row['document'] . "> .\n\n";
 
 }
 
-
+foreach ($docs as $key => $value) {
+	echo "<" . $key . "> a roar:Document ;\n";
+	echo "\trdfs:label \"" . $value . "\" .\n\n";
+}
 
 
 ?>

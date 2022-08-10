@@ -18,9 +18,9 @@ echo "
 @prefix pnv:		<https://w3id.org/pnv#> .
 \n\n";
 
+$locs = array();
 
-
-$sql = "select distinct(geboorteplaatsuri), geboorteplaatslatlong from persoonsobservaties where geboorteplaatsuri <> ''";
+$sql = "select distinct(geboorteplaatsuri), geboorteplaatslabel, geboorteplaatslatlong from persoonsobservaties where geboorteplaatsuri <> ''";
 $result = $mysqli->query($sql);
 
 while($row = $result->fetch_assoc()){
@@ -28,15 +28,35 @@ while($row = $result->fetch_assoc()){
 	$wgspoints = explode(",",$row['geboorteplaatslatlong']);
 	$wgswkt = "POINT(" . $wgspoints[1] . " " .$wgspoints[0] . ")";
 
-	echo "<" . $row['geboorteplaatsuri'] . "> a roar:Location ; \n";
-	echo "\tgeo:hasGeometry [\n";
-		echo "\t\tgeo:asWKT \"" . $wgswkt . "\"^^geo:wktLiteral\n";
-	echo "\t] .\n\n";
+	$locs[$row['geboorteplaatsuri']] = array(
+		"wgswkt" => $wgswkt,
+		"label" => $row['geboorteplaatslabel']
+	);
+
+	
 
 }
 
 
-$sql = "select distinct(nearesturi), latlong from woonadresobservaties where nearesturi <> ''";
+$sql = "select distinct(sterfplaatsuri), sterfplaatslabel, sterfplaatslatlong from persoonsobservaties where sterfplaatsuri <> ''";
+$result = $mysqli->query($sql);
+
+while($row = $result->fetch_assoc()){
+
+	$wgspoints = explode(",",$row['sterfplaatslatlong']);
+	$wgswkt = "POINT(" . $wgspoints[1] . " " .$wgspoints[0] . ")";
+
+	$locs[$row['sterfplaatsuri']] = array(
+		"wgswkt" => $wgswkt,
+		"label" => $row['sterfplaatslabel']
+	);
+
+	
+
+}
+
+
+$sql = "select distinct(nearesturi), nearesturilabel, latlong from woonadresobservaties where nearesturi <> ''";
 $result = $mysqli->query($sql);
 
 while($row = $result->fetch_assoc()){
@@ -44,11 +64,22 @@ while($row = $result->fetch_assoc()){
 	$wgspoints = explode(",",$row['latlong']);
 	$wgswkt = "POINT(" . $wgspoints[1] . " " .$wgspoints[0] . ")";
 
-	echo "<" . $row['nearesturi'] . "> a roar:Location ; \n";
-	echo "\tgeo:hasGeometry [\n";
-		echo "\t\tgeo:asWKT \"" . $wgswkt . "\"^^geo:wktLiteral\n";
-	echo "\t] .\n\n";
+	$locs[$row['nearesturi']] = array(
+		"wgswkt" => $wgswkt,
+		"label" => $row['nearesturilabel']
+	);
 
+}
+
+foreach($locs as $k => $v){
+
+	echo "<" . $k . "> a roar:Location ; \n";
+	if(strlen($v['label'])){
+		echo "\trdfs:label \"" . $v['label'] . "\" ;\n";
+	}
+	echo "\tgeo:hasGeometry [\n";
+		echo "\t\tgeo:asWKT \"" . $v['wgswkt'] . "\"^^geo:wktLiteral\n";
+	echo "\t] .\n\n";
 }
 
 
