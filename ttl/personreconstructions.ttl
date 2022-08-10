@@ -24,7 +24,7 @@
 		a bio:Birth ;
 		sem:hasTimeStamp "1914-02-23"^^xsd:date ;
 		bio:place <http://sws.geonames.org/2772043/> ;
-		bio:principal :pr-c3ce13d9 
+		bio:principal :pr1 
 	] ;
 	roar:hasLocation [
 		a roar:Location ;
@@ -69,7 +69,24 @@
 		sem:hasLatestBeginTimeStamp "1938-03-08"^^xsd:date ;
 		roar:role "residence" 
 	] ;
-	prov:wasDerivedFrom :po1, :po4, :po7, :po8, :lo1, :lo3, :lo5, :lo6, :lo10, :lo11, :lo15, :lo16, :lo17 .
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Emmaplein 7" ;
+		geo:geoWithin <https://adamlink.nl/geo/address/A134813> ;
+		schema:position "6"^^xsd:integer ;
+		sem:hasLatestBeginTimeStamp "1939-06-12"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1941-03-06"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "GV Beukstraat 137" ;
+		geo:geoWithin <http://bag.basisregistraties.overheid.nl/bag/id/pand/0518100000228459> ;
+		schema:position "7"^^xsd:integer ;
+		sem:hasLatestBeginTimeStamp "1941-03-06"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	prov:wasDerivedFrom :po1, :po4, :po7, :po8, :po12, :lo1, :lo3, :lo5, :lo6, :lo10, :lo11, :lo15, :lo16, :lo17, :lo20, :lo21 .
 
 :pr2 a roar:PersonReconstruction ;
 	rdfs:label "Izaäk Lob" ;
@@ -81,9 +98,15 @@
 	] ;
 	bio:birth [
 		a bio:Birth ;
-		sem:hasTimeStamp "1861"^^xsd:gYear ;
-		bio:place <http://sws.geonames.org/2772043/> ;
-		bio:principal :pr-822808ac 
+		sem:hasTimeStamp "1861-01-20"^^xsd:date ;
+		bio:place <http://www.wikidata.org/entity/Q727> ;
+		bio:principal :pr2 
+	] ;
+	bio:death [
+		a bio:Death ;
+		sem:hasTimeStamp "1943-05-28"^^xsd:date ;
+		bio:place <http://www.wikidata.org/entity/Q152658> ;
+		bio:principal :pr2 
 	] ;
 	roar:hasLocation [
 		a roar:Location ;
@@ -110,5 +133,83 @@
 		sem:hasLatestBeginTimeStamp "1937-10-30"^^xsd:date ;
 		roar:role "residence" 
 	] ;
-	prov:wasDerivedFrom :po3, :po5, :lo4, :lo7, :lo8, :lo9 .
+	prov:wasDerivedFrom :po3, :po5, :po10, :lo4, :lo7, :lo8, :lo9 .
+
+:pr3 a roar:PersonReconstruction ;
+	rdfs:label "Wilhelmus Geurdinus Kiewiet" ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Wilhelmus Geurdinus" ;
+		pnv:baseSurname "Kiewiet" ;
+		pnv:literalName "Wilhelmus Geurdinus Kiewiet" ;
+	] ;
+	bio:birth [
+		a bio:Birth ;
+		sem:hasTimeStamp "1907-05-18"^^xsd:date ;
+		bio:place <http://www.wikidata.org/entity/Q727> ;
+		bio:principal :pr3 
+	] ;
+	bio:death [
+		a bio:Death ;
+		sem:hasTimeStamp "1953-06-19"^^xsd:date ;
+		bio:place <http://www.wikidata.org/entity/Q36600> ;
+		bio:principal :pr3 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Spaarndammerstraat 46-hs" ;
+		geo:geoWithin <https://adamlink.nl/geo/address/A196364> ;
+		schema:position "1"^^xsd:integer ;
+		sem:hasEarliestEndTimeStamp "1940-09-23"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "GV JEvertsenstraat 21" ;
+		geo:geoWithin <http://bag.basisregistraties.overheid.nl/bag/id/pand/0518100000235648> ;
+		schema:position "2"^^xsd:integer ;
+		sem:hasLatestBeginTimeStamp "1940-09-23"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "GV Beukstraat 137" ;
+		geo:geoWithin <http://bag.basisregistraties.overheid.nl/bag/id/pand/0518100000228459> ;
+		schema:position "3"^^xsd:integer ;
+		sem:hasLatestBeginTimeStamp "1941-03-06"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	prov:wasDerivedFrom :po13, :po14, :po15, :lo22, :lo23, :lo24 .
+
+:pr4 a roar:PersonReconstruction ;
+	rdfs:label "Berend Martinus Kiewiet" ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Berend Martinus" ;
+		pnv:baseSurname "Kiewiet" ;
+		pnv:literalName "Berend Martinus Kiewiet" ;
+	] ;
+	bio:birth [
+		a bio:Birth ;
+		sem:hasTimeStamp "1873-01-07"^^xsd:date ;
+		bio:place <http://www.wikidata.org/entity/Q2181173> ;
+		bio:principal :pr4 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Spaarndammerstraat 46-huis" ;
+		geo:geoWithin <https://adamlink.nl/geo/address/A196364> ;
+		schema:position "1"^^xsd:integer ;
+		sem:hasEarliestEndTimeStamp "1941-03-03"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Van Oldenbarneveldstraat 72-hs" ;
+		geo:geoWithin <https://adamlink.nl/geo/address/A164430> ;
+		schema:position "2"^^xsd:integer ;
+		sem:hasLatestBeginTimeStamp "1941-03-03"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	prov:wasDerivedFrom :po16, :po17, :po18, :lo25, :lo26 .
 

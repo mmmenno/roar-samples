@@ -283,6 +283,42 @@
 	] ;
 	roar:documentedIn <https://archief.amsterdam/indexen/deeds/2212bc58-db2d-43c1-b5bb-e64a2a409171> .
 
+:po18 a roar:PersonObservation ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Berend Martinus" ;
+		pnv:baseSurname "Kiewiet" ;
+		pnv:literalName "Berend Martinus Kiewiet" 
+	] ;
+	bio:birth [
+		a bio:Birth ;
+		sem:hasTimeStamp "1873-01-07"^^xsd:date ;
+		bio:place [
+			rdf:value <http://www.wikidata.org/entity/Q2181173> ;
+			rdfs:label "Bellingwolde"
+		] ;
+		bio:principal :po18 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/985333f1-e5aa-56a3-e053-b784100ade19> .
+
+:po19 a roar:PersonObservation ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Wilhelmina Geurdina" ;
+		pnv:baseSurname "Gerritsen" ;
+		pnv:literalName "Wilhelmina Geurdina Gerritsen" 
+	] ;
+	bio:birth [
+		a bio:Birth ;
+		sem:hasTimeStamp "1872-11-04"^^xsd:date ;
+		bio:place [
+			rdf:value <http://www.wikidata.org/entity/Q15881216> ;
+			rdfs:label "Renkum"
+		] ;
+		bio:principal :po19 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/985333f1-e5aa-56a3-e053-b784100ade19> .
+
 <https://archief.amsterdam/indexen/deeds/9853344e-fb80-56a3-e053-b784100ade19> a roar:Document ;
 	rdfs:label "gezinskaart Katharina Samonig" .
 

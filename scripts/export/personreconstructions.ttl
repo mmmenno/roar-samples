@@ -152,6 +152,7 @@
 	bio:death [
 		a bio:Death ;
 		sem:hasTimeStamp "1953-06-19"^^xsd:date ;
+		bio:place <http://www.wikidata.org/entity/Q36600> ;
 		bio:principal :pr3 
 	] ;
 	roar:hasLocation [
@@ -181,16 +182,17 @@
 	prov:wasDerivedFrom :po13, :po14, :po15, :lo22, :lo23, :lo24 .
 
 :pr4 a roar:PersonReconstruction ;
-	rdfs:label "Berend M. Kiewiet" ;
+	rdfs:label "Berend Martinus Kiewiet" ;
 	pnv:hasName [ 
 		a pnv:PersonName ;
-		pnv:givenName "Berend M." ;
+		pnv:givenName "Berend Martinus" ;
 		pnv:baseSurname "Kiewiet" ;
-		pnv:literalName "Berend M. Kiewiet" ;
+		pnv:literalName "Berend Martinus Kiewiet" ;
 	] ;
 	bio:birth [
 		a bio:Birth ;
 		sem:hasTimeStamp "1873-01-07"^^xsd:date ;
+		bio:place <http://www.wikidata.org/entity/Q2181173> ;
 		bio:principal :pr4 
 	] ;
 	roar:hasLocation [
@@ -209,5 +211,5 @@
 		sem:hasLatestBeginTimeStamp "1941-03-03"^^xsd:date ;
 		roar:role "residence" 
 	] ;
-	prov:wasDerivedFrom :po16, :po17, :lo25, :lo26 .
+	prov:wasDerivedFrom :po16, :po17, :po18, :lo25, :lo26 .
 

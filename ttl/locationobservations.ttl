@@ -167,3 +167,89 @@
 	] ;
 	roar:documentedIn <https://archief.amsterdam/indexen/deeds/fa136b9f-1c9f-495a-a6e9-c1d599c0d7a2> .
 
+:lo18 a roar:LocationObservation ;
+	rdfs:label "Minervalaan 78-I" ;
+	geo:geoWithin <https://adamlink.nl/geo/address/A173989> ;
+	roar:hasPerson [
+		rdf:value :po9 ;
+		sem:hasEarliestEndTimeStamp "1948-05-07"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/bd800645-5604-4dbc-a8eb-4a8c3279d7cc> .
+
+:lo19 a roar:LocationObservation ;
+	rdfs:label "U.S.A." ;
+	geo:geoWithin <http://www.wikidata.org/entity/Q30> ;
+	roar:hasPerson [
+		rdf:value :po9 ;
+		sem:hasLatestBeginTimeStamp "1948-05-07"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/bd800645-5604-4dbc-a8eb-4a8c3279d7cc> .
+
+:lo20 a roar:LocationObservation ;
+	rdfs:label "Emmaplein 7" ;
+	geo:geoWithin <https://adamlink.nl/geo/address/A134813> ;
+	roar:hasPerson [
+		rdf:value :po12 ;
+		sem:hasLatestBeginTimeStamp "1939-06-12"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1941-03-06"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/98533412-52fb-56a3-e053-b784100ade19> .
+
+:lo21 a roar:LocationObservation ;
+	rdfs:label "GV Beukstraat 137" ;
+	geo:geoWithin <http://bag.basisregistraties.overheid.nl/bag/id/pand/0518100000228459> ;
+	roar:hasPerson [
+		rdf:value :po12 ;
+		sem:hasLatestBeginTimeStamp "1941-03-06"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:hasPerson [
+		rdf:value :po13 ;
+		sem:hasLatestBeginTimeStamp "1941-03-06"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/98533412-52fb-56a3-e053-b784100ade19> .
+
+:lo23 a roar:LocationObservation ;
+	rdfs:label "Spaarndammerstraat 46-hs" ;
+	geo:geoWithin <https://adamlink.nl/geo/address/A196364> ;
+	roar:hasPerson [
+		rdf:value :po15 ;
+		sem:hasEarliestEndTimeStamp "1940-09-23"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/985333f1-e5aa-56a3-e053-b784100ade19> .
+
+:lo24 a roar:LocationObservation ;
+	rdfs:label "GV JEvertsenstraat 21" ;
+	geo:geoWithin <http://bag.basisregistraties.overheid.nl/bag/id/pand/0518100000235648> ;
+	roar:hasPerson [
+		rdf:value :po15 ;
+		sem:hasLatestBeginTimeStamp "1940-09-23"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/985333f1-e5aa-56a3-e053-b784100ade19> .
+
+:lo25 a roar:LocationObservation ;
+	rdfs:label "Spaarndammerstraat 46-huis" ;
+	geo:geoWithin <https://adamlink.nl/geo/address/A196364> ;
+	roar:hasPerson [
+		rdf:value :po16 ;
+		sem:hasEarliestEndTimeStamp "1941-03-03"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/92b1fb8c-0b46-4cdf-84a6-3830d4d437a5> .
+
+:lo26 a roar:LocationObservation ;
+	rdfs:label "Van Oldenbarneveldstraat 72-hs" ;
+	geo:geoWithin <https://adamlink.nl/geo/address/A164430> ;
+	roar:hasPerson [
+		rdf:value :po16 ;
+		sem:hasLatestBeginTimeStamp "1941-03-03"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/92b1fb8c-0b46-4cdf-84a6-3830d4d437a5> .
+

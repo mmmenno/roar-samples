@@ -24,10 +24,28 @@
 		geo:asWKT "POINT( 4.900000 52.383333)"^^geo:wktLiteral
 	] .
 
+<http://www.wikidata.org/entity/Q2181173> a roar:Location ; 
+	rdfs:label "Bellingwolde" ;
+	geo:hasGeometry [
+		geo:asWKT "POINT(7.171944 53.120000)"^^geo:wktLiteral
+	] .
+
+<http://www.wikidata.org/entity/Q15881216> a roar:Location ; 
+	rdfs:label "Renkum" ;
+	geo:hasGeometry [
+		geo:asWKT "POINT( 5.730833 51.972222)"^^geo:wktLiteral
+	] .
+
 <http://www.wikidata.org/entity/Q152658> a roar:Location ; 
 	rdfs:label "Sobibor" ;
 	geo:hasGeometry [
 		geo:asWKT "POINT( 23.594136 51.446992)"^^geo:wktLiteral
+	] .
+
+<http://www.wikidata.org/entity/Q36600> a roar:Location ; 
+	rdfs:label "Den Haag" ;
+	geo:hasGeometry [
+		geo:asWKT "POINT(4.310000 52.080000)"^^geo:wktLiteral
 	] .
 
 <https://adamlink.nl/geo/address/A172897> a roar:Location ; 
