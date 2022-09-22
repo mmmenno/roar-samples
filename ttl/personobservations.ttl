@@ -319,6 +319,867 @@
 	] ;
 	roar:documentedIn <https://archief.amsterdam/indexen/deeds/985333f1-e5aa-56a3-e053-b784100ade19> .
 
+:po20 a roar:PersonObservation ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Berend Martinus" ;
+		pnv:baseSurname "Kiewiet" ;
+		pnv:literalName "Berend Martinus Kiewiet" 
+	] ;
+	bio:birth [
+		a bio:Birth ;
+		sem:hasTimeStamp "1873-01-07"^^xsd:date ;
+		bio:place [
+			rdf:value <http://www.wikidata.org/entity/Q2181173> ;
+			rdfs:label "Bellingwolde"
+		] ;
+		bio:principal :po20 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/5bcbae5d-8f86-4b88-9407-b9f0e1a03e7c> .
+
+:po21 a roar:PersonObservation ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Berend Martinus" ;
+		pnv:baseSurname "Kiewiet" ;
+		pnv:literalName "Berend Martinus Kiewiet" 
+	] ;
+	bio:birth [
+		a bio:Birth ;
+		sem:hasTimeStamp "1873-01-07"^^xsd:date ;
+		bio:place [
+			rdf:value <http://www.wikidata.org/entity/Q2181173> ;
+			rdfs:label "Bellingwolde"
+		] ;
+		bio:principal :po21 
+	] ;
+	roar:documentedIn <https://www.drentsarchief.nl/onderzoeken/genealogie/zoeken/deeds/c341a1bc-0bc8-43a5-a4f2-c6c3671914eb> .
+
+:po22 a roar:PersonObservation ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Berend Martinus" ;
+		pnv:baseSurname "Kiewiet" ;
+		pnv:literalName "Berend Martinus Kiewiet" 
+	] ;
+	bio:birth [
+		a bio:Birth ;
+		sem:hasTimeStamp "1873-01-07"^^xsd:date ;
+		bio:place [
+			rdf:value <http://www.wikidata.org/entity/Q2181173> ;
+			rdfs:label "Bellingwolde"
+		] ;
+		bio:principal :po22 
+	] ;
+	roar:documentedIn <https://www.drentsarchief.nl/onderzoeken/genealogie/zoeken/deeds/9ca22e53-c62a-4a9c-8192-d81efc73b896> .
+
+:po23 a roar:PersonObservation ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Berend Martinus" ;
+		pnv:baseSurname "Kiewiet" ;
+		pnv:literalName "Berend Martinus Kiewiet" 
+	] ;
+	bio:birth [
+		a bio:Birth ;
+		sem:hasTimeStamp "1873-01-07"^^xsd:date ;
+		bio:place [
+			rdf:value <http://www.wikidata.org/entity/Q2181173> ;
+			rdfs:label "Bellingwolde"
+		] ;
+		bio:principal :po23 
+	] ;
+	roar:documentedIn <https://www.drentsarchief.nl/onderzoeken/genealogie/zoeken/deeds/0327c1e7-0ff1-4246-9cfc-bddb8ce681e9> .
+
+:po24 a roar:PersonObservation ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Berend Martinus" ;
+		pnv:baseSurname "Kiewiet" ;
+		pnv:literalName "Berend Martinus Kiewiet" 
+	] ;
+	bio:birth [
+		a bio:Birth ;
+		sem:hasTimeStamp "1873-01-07"^^xsd:date ;
+		bio:place [
+			rdf:value <http://www.wikidata.org/entity/Q2479947> ;
+			rdfs:label "Oudeschans"
+		] ;
+		bio:principal :po24 
+	] ;
+	roar:documentedIn <https://www.allegroningers.nl/zoeken-op-naam/deeds/b7b0f867-2bb4-41db-9e1f-b1ac66af4e35> .
+
+:po25 a roar:PersonObservation ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Berend M." ;
+		pnv:baseSurname "Kiewiet" ;
+		pnv:literalName "Berend M. Kiewiet" 
+	] ;
+	bio:birth [
+		a bio:Birth ;
+		sem:hasTimeStamp "1873"^^xsd:gYear ;
+		bio:principal :po25 
+	] ;
+	bio:death [
+		a bio:Death ;
+		sem:hasTimeStamp "1944-07-17"^^xsd:date ;
+		bio:principal :po25 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/64e1ebed-aff2-489d-a3d2-32a793f5fc3f> .
+
+:po26 a roar:PersonObservation ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Wilhelmina G." ;
+		pnv:baseSurname "Kiewiet, geb. Gerritsen" ;
+		pnv:literalName "Wilhelmina G. Kiewiet, geb. Gerritsen" 
+	] ;
+	bio:death [
+		a bio:Death ;
+		sem:hasTimeStamp "1947-03-30"^^xsd:date ;
+		bio:principal :po26 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/64e1ebed-aff2-489d-a3d2-32a793f5fc3f> .
+
+:po27 a roar:PersonObservation ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Menno" ;
+		pnv:surnamePrefix "den " ;
+		pnv:baseSurname "Engelse" ;
+		pnv:literalName "Menno den  Engelse" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/8ac5e5bd-b469-4d92-a2c9-6fe037356771> .
+
+:po28 a roar:PersonObservation ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Menno" ;
+		pnv:surnamePrefix "den" ;
+		pnv:baseSurname "Engelse" ;
+		pnv:literalName "Menno den Engelse" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/b8617547-03a8-410a-8812-ab094efcd9e9> .
+
+:po29 a roar:PersonObservation ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Menno" ;
+		pnv:surnamePrefix "den" ;
+		pnv:baseSurname "Engelse" ;
+		pnv:literalName "Menno den Engelse" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/3509a206-aa35-4101-8fe5-78b82b317bf0> .
+
+:po30 a roar:PersonObservation ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Menno" ;
+		pnv:surnamePrefix "den" ;
+		pnv:baseSurname "Engelse" ;
+		pnv:literalName "Menno den Engelse" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/eb68e1c6-bc47-408d-8a74-9875d30530ee> .
+
+:po31 a roar:PersonObservation ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Janna Maria" ;
+		pnv:baseSurname "Goedegebuure" ;
+		pnv:literalName "Janna Maria Goedegebuure" 
+	] ;
+	bio:birth [
+		a bio:Birth ;
+		sem:hasTimeStamp "1905-11-17"^^xsd:date ;
+		bio:place [
+			rdf:value <http://www.wikidata.org/entity/Q992371> ;
+			rdfs:label "Bruinisse, Wijk B, 221 a"
+		] ;
+		bio:principal :po31 
+	] ;
+	roar:documentedIn <https://hdl.handle.net/21.12113/D8DCBB8C309E4C5194B5DA4E95BD02BF> .
+
+:po32 a roar:PersonObservation ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Janna Maria" ;
+		pnv:baseSurname "Goedegebuure" ;
+		pnv:literalName "Janna Maria Goedegebuure" 
+	] ;
+	bio:birth [
+		a bio:Birth ;
+		sem:hasTimeStamp "1905-11-17"^^xsd:date ;
+		bio:place [
+			rdf:value <http://www.wikidata.org/entity/Q992371> ;
+			rdfs:label "Bruinisse"
+		] ;
+		bio:principal :po32 
+	] ;
+	roar:documentedIn <https://hdl.handle.net/21.12124/BDD6F2CBCF5F49E7A718491558B9D40C> .
+
+:po33 a roar:PersonObservation ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Cornelis" ;
+		pnv:baseSurname "Hoogteyling" ;
+		pnv:literalName "Cornelis Hoogteyling" 
+	] ;
+	bio:birth [
+		a bio:Birth ;
+		sem:hasTimeStamp "1907-11-01"^^xsd:date ;
+		bio:place [
+			rdf:value <http://www.wikidata.org/entity/Q36600> ;
+			rdfs:label "Den Haag"
+		] ;
+		bio:principal :po33 
+	] ;
+	roar:documentedIn <https://hdl.handle.net/21.12124/BDD6F2CBCF5F49E7A718491558B9D40C> .
+
+:po34 a roar:PersonObservation ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Janna Maria" ;
+		pnv:baseSurname "Hoogteyling" ;
+		pnv:literalName "Janna Maria Hoogteyling" 
+	] ;
+	bio:death [
+		a bio:Death ;
+		sem:hasTimeStamp "1953-07-15"^^xsd:date ;
+		bio:place [
+			rdf:value <http://www.wikidata.org/entity/Q36600> ;
+			rdfs:label "'s Gravenhage"
+		] ;
+		bio:principal :po34 
+	] ;
+	roar:documentedIn <https://resolver.kb.nl/resolve?urn=MMKB19:000832064:mpeg21:a00090> .
+
+:po35 a roar:PersonObservation ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Janna Maria" ;
+		pnv:baseSurname "Goedegebuure" ;
+		pnv:literalName "Janna Maria Goedegebuure" 
+	] ;
+	bio:birth [
+		a bio:Birth ;
+		sem:hasTimeStamp "1905-11-17"^^xsd:date ;
+		bio:place [
+			rdf:value <http://www.wikidata.org/entity/Q992371> ;
+			rdfs:label "Bruinisse"
+		] ;
+		bio:principal :po35 
+	] ;
+	roar:documentedIn <https://www.wiewaswie.nl/nl/detail/106888334> .
+
+:po36 a roar:PersonObservation ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Cornelis" ;
+		pnv:baseSurname "Hoogteijling" ;
+		pnv:literalName "Cornelis Hoogteijling" 
+	] ;
+	bio:birth [
+		a bio:Birth ;
+		sem:hasTimeStamp "1907-11-01"^^xsd:date ;
+		bio:place [
+			rdf:value <http://www.wikidata.org/entity/Q36600> ;
+			rdfs:label "Den Haag"
+		] ;
+		bio:principal :po36 
+	] ;
+	roar:documentedIn <https://hdl.handle.net/21.12124/AAD6EE0B5D8F4FBA8FE93FECE03FBC47> .
+
+:po37 a roar:PersonObservation ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Antonia Cornelia" ;
+		pnv:baseSurname "Schalk" ;
+		pnv:literalName "Antonia Cornelia Schalk" 
+	] ;
+	bio:birth [
+		a bio:Birth ;
+		sem:hasTimeStamp "1890-05-12"^^xsd:date ;
+		bio:place [
+			rdf:value <http://www.wikidata.org/entity/Q33439227> ;
+			rdfs:label "Gorinchem"
+		] ;
+		bio:principal :po37 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/763aef2e-478e-488c-8a44-160420b8f352> .
+
+:po38 a roar:PersonObservation ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Hendrik" ;
+		pnv:surnamePrefix "den" ;
+		pnv:baseSurname "Engelse" ;
+		pnv:literalName "Hendrik den Engelse" 
+	] ;
+	bio:birth [
+		a bio:Birth ;
+		sem:hasTimeStamp "1911-07-04"^^xsd:date ;
+		bio:place [
+			rdf:value <http://www.wikidata.org/entity/Q2483396> ;
+			rdfs:label "Fijnaart"
+		] ;
+		bio:principal :po38 
+	] ;
+	roar:documentedIn <https://www.openarch.nl/wba:ffb57474-3514-4424-8fc4-dfd32148c9ad> .
+
+:po39 a roar:PersonObservation ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Hendrik" ;
+		pnv:surnamePrefix "den" ;
+		pnv:baseSurname "Engelse" ;
+		pnv:literalName "Hendrik den Engelse" 
+	] ;
+	bio:birth [
+		a bio:Birth ;
+		sem:hasTimeStamp "1911-07-04"^^xsd:date ;
+		bio:place [
+			rdf:value <http://www.wikidata.org/entity/Q2483396> ;
+			rdfs:label "Fijnaart"
+		] ;
+		bio:principal :po39 
+	] ;
+	roar:documentedIn <https://westbrabantsarchief.nl/collectie/voorouders/deeds/9dfb3285-2019-684e-6a69-a379e718568f> .
+
+:po40 a roar:PersonObservation ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Hendrik" ;
+		pnv:surnamePrefix "den" ;
+		pnv:baseSurname "Engelse" ;
+		pnv:literalName "Hendrik den Engelse" 
+	] ;
+	bio:birth [
+		a bio:Birth ;
+		sem:hasTimeStamp "1911-07-04"^^xsd:date ;
+		bio:place [
+			rdf:value <http://www.wikidata.org/entity/Q2483396> ;
+			rdfs:label "Fijnaart"
+		] ;
+		bio:principal :po40 
+	] ;
+	roar:documentedIn <https://hdl.handle.net/21.12124/1422EABFB75340AA863E29ADB2EAFD7F> .
+
+:po41 a roar:PersonObservation ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Hendrik" ;
+		pnv:surnamePrefix "den" ;
+		pnv:baseSurname "Engelse" ;
+		pnv:literalName "Hendrik den Engelse" 
+	] ;
+	bio:birth [
+		a bio:Birth ;
+		sem:hasTimeStamp "1911-07-04"^^xsd:date ;
+		bio:place [
+			rdf:value <http://www.wikidata.org/entity/Q2483396> ;
+			rdfs:label "Fijnaart"
+		] ;
+		bio:principal :po41 
+	] ;
+	roar:documentedIn <https://hdl.handle.net/21.12124/80011712D551414EA6A64CE9550D199E> .
+
+:po42 a roar:PersonObservation ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Neeltje" ;
+		pnv:baseSurname "Dorleijn" ;
+		pnv:literalName "Neeltje Dorleijn" 
+	] ;
+	bio:birth [
+		a bio:Birth ;
+		sem:hasTimeStamp "1909-11-07"^^xsd:date ;
+		bio:place [
+			rdf:value <http://www.wikidata.org/entity/Q1785561> ;
+			rdfs:label "Koudekerke"
+		] ;
+		bio:principal :po42 
+	] ;
+	roar:documentedIn <https://proxy.archieven.nl/0/735D32082F0B484EBC294DFA807D7AC4> .
+
+:po43 a roar:PersonObservation ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Izaäk" ;
+		pnv:baseSurname "Lob" ;
+		pnv:literalName "Izaäk Lob" 
+	] ;
+	bio:birth [
+		a bio:Birth ;
+		sem:hasTimeStamp "1861"^^xsd:gYear ;
+		bio:principal :po43 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/fda1e74b-a2e0-483c-9bd5-403d813f4965> .
+
+:po44 a roar:PersonObservation ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Izaak" ;
+		pnv:baseSurname "Lob" ;
+		pnv:literalName "Izaak Lob" 
+	] ;
+	bio:birth [
+		a bio:Birth ;
+		sem:hasTimeStamp "1861-01-20"^^xsd:date ;
+		bio:place [
+			rdf:value <http://www.wikidata.org/entity/Q727> ;
+			rdfs:label "Amsterdam"
+		] ;
+		bio:principal :po44 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/18a98f9e-ce0f-48c1-8173-b3db15c56226> .
+
+:po45 a roar:PersonObservation ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Izaak" ;
+		pnv:baseSurname "Lob" ;
+		pnv:literalName "Izaak Lob" 
+	] ;
+	bio:birth [
+		a bio:Birth ;
+		sem:hasTimeStamp "1861-01-20"^^xsd:date ;
+		bio:place [
+			rdf:value <http://www.wikidata.org/entity/Q727> ;
+			rdfs:label "Amsterdam"
+		] ;
+		bio:principal :po45 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/3b1d7857-2b08-40f1-9bc1-8ab9e794a3ab> .
+
+:po46 a roar:PersonObservation ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Izaak" ;
+		pnv:baseSurname "Lob" ;
+		pnv:literalName "Izaak Lob" 
+	] ;
+	bio:birth [
+		a bio:Birth ;
+		sem:hasTimeStamp "1861"^^xsd:gYear ;
+		bio:place [
+			rdf:value <http://www.wikidata.org/entity/Q727> ;
+			rdfs:label "Amsterdam"
+		] ;
+		bio:principal :po46 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/c9bcbfa9-7473-4ad2-9475-db986d8d3707> .
+
+:po47 a roar:PersonObservation ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Izaak" ;
+		pnv:baseSurname "Lob" ;
+		pnv:literalName "Izaak Lob" 
+	] ;
+	bio:birth [
+		a bio:Birth ;
+		sem:hasTimeStamp "1861"^^xsd:gYear ;
+		bio:place [
+			rdf:value <http://www.wikidata.org/entity/Q727> ;
+			rdfs:label "Amsterdam"
+		] ;
+		bio:principal :po47 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/0798cd40-7552-4bd1-885f-47b63f9a5590> .
+
+:po48 a roar:PersonObservation ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Isaac" ;
+		pnv:baseSurname "Lob" ;
+		pnv:literalName "Isaac Lob" 
+	] ;
+	bio:birth [
+		a bio:Birth ;
+		sem:hasTimeStamp "1861"^^xsd:gYear ;
+		bio:place [
+			rdf:value <http://www.wikidata.org/entity/Q727> ;
+			rdfs:label "Amsterdam"
+		] ;
+		bio:principal :po48 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/2ebd6bf1-42ba-4d65-a763-6e3fbac62bb4> .
+
+:po49 a roar:PersonObservation ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Izaak" ;
+		pnv:baseSurname "Lob" ;
+		pnv:literalName "Izaak Lob" 
+	] ;
+	bio:birth [
+		a bio:Birth ;
+		sem:hasTimeStamp "1861"^^xsd:gYear ;
+		bio:principal :po49 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/bace9751-abda-4f08-b504-1b2227017211> .
+
+:po50 a roar:PersonObservation ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Maria" ;
+		pnv:baseSurname "Samonig" ;
+		pnv:literalName "Maria Samonig" 
+	] ;
+	bio:birth [
+		a bio:Birth ;
+		sem:hasTimeStamp "1903-11-16"^^xsd:date ;
+		bio:place [
+			rdf:value <http://sws.geonames.org/2772043/> ;
+			rdfs:label "Mallestig"
+		] ;
+		bio:principal :po50 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/9853343e-3e0e-56a3-e053-b784100ade19> .
+
+:po51 a roar:PersonObservation ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Maria" ;
+		pnv:baseSurname "Samonig" ;
+		pnv:literalName "Maria Samonig" 
+	] ;
+	bio:birth [
+		a bio:Birth ;
+		sem:hasTimeStamp "1903-11-16"^^xsd:date ;
+		bio:place [
+			rdf:value <http://sws.geonames.org/2772043/> ;
+			rdfs:label "Mallestig"
+		] ;
+		bio:principal :po51 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/9853341a-3a55-56a3-e053-b784100ade19> .
+
+:po52 a roar:PersonObservation ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Maria" ;
+		pnv:baseSurname "Samonig" ;
+		pnv:literalName "Maria Samonig" 
+	] ;
+	bio:birth [
+		a bio:Birth ;
+		sem:hasTimeStamp "1903"^^xsd:gYear ;
+		bio:principal :po52 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/354de3a2-c908-4c5e-876b-8537e0326edd> .
+
+:po53 a roar:PersonObservation ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Maria" ;
+		pnv:baseSurname "Samonig" ;
+		pnv:literalName "Maria Samonig" 
+	] ;
+	bio:birth [
+		a bio:Birth ;
+		sem:hasTimeStamp "1903"^^xsd:gYear ;
+		bio:principal :po53 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/e450cda3-c8ec-4b0a-8815-715cc82ea61a> .
+
+:po54 a roar:PersonObservation ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Maria" ;
+		pnv:baseSurname "Samonig" ;
+		pnv:literalName "Maria Samonig" 
+	] ;
+	bio:birth [
+		a bio:Birth ;
+		sem:hasTimeStamp "1903"^^xsd:gYear ;
+		bio:principal :po54 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/68fb7053-edf7-40d2-9bb1-746a19cf36eb> .
+
+:po55 a roar:PersonObservation ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Maria" ;
+		pnv:baseSurname "Samonig" ;
+		pnv:literalName "Maria Samonig" 
+	] ;
+	bio:birth [
+		a bio:Birth ;
+		sem:hasTimeStamp "1903"^^xsd:gYear ;
+		bio:principal :po55 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/42ef57a0-7d3c-46e1-97f5-fd35d8095803> .
+
+:po56 a roar:PersonObservation ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Josefine" ;
+		pnv:baseSurname "Samonig" ;
+		pnv:literalName "Josefine Samonig" 
+	] ;
+	bio:birth [
+		a bio:Birth ;
+		sem:hasTimeStamp "1919-10-19"^^xsd:date ;
+		bio:place [
+			rdf:value <http://sws.geonames.org/2774786/> ;
+			rdfs:label "Goritschach Kanzianiberg Kärnten"
+		] ;
+		bio:principal :po56 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/9853344d-1f52-56a3-e053-b784100ade19> .
+
+:po57 a roar:PersonObservation ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Josefine" ;
+		pnv:baseSurname "Samonig" ;
+		pnv:literalName "Josefine Samonig" 
+	] ;
+	bio:birth [
+		a bio:Birth ;
+		sem:hasTimeStamp "1919"^^xsd:gYear ;
+		bio:principal :po57 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/2a631083-6c64-4c9d-93c5-125bc02be56a> .
+
+:po58 a roar:PersonObservation ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Josefine" ;
+		pnv:baseSurname "Samonig" ;
+		pnv:literalName "Josefine Samonig" 
+	] ;
+	bio:birth [
+		a bio:Birth ;
+		sem:hasTimeStamp "1919"^^xsd:gYear ;
+		bio:principal :po58 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/d5cd2ca8-57cb-4a16-b0ad-c5d00d80d2fa> .
+
+:po59 a roar:PersonObservation ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Josefine" ;
+		pnv:baseSurname "Samonig" ;
+		pnv:literalName "Josefine Samonig" 
+	] ;
+	bio:birth [
+		a bio:Birth ;
+		sem:hasTimeStamp "1919"^^xsd:gYear ;
+		bio:principal :po59 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/ec730cdf-abcb-4174-8525-c7f2a261b043> .
+
+:po60 a roar:PersonObservation ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Josefine" ;
+		pnv:baseSurname "Samonig" ;
+		pnv:literalName "Josefine Samonig" 
+	] ;
+	bio:birth [
+		a bio:Birth ;
+		sem:hasTimeStamp "1919"^^xsd:gYear ;
+		bio:principal :po60 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/6fecf056-0354-4b9d-9992-7e1563e44a84> .
+
+:po61 a roar:PersonObservation ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Ursula" ;
+		pnv:baseSurname "Samonig" ;
+		pnv:literalName "Ursula Samonig" 
+	] ;
+	bio:birth [
+		a bio:Birth ;
+		sem:hasTimeStamp "1902-10-21"^^xsd:date ;
+		bio:place [
+			rdf:value <http://sws.geonames.org/2772043/> ;
+			rdfs:label "Mallestig (Kärnten)"
+		] ;
+		bio:principal :po61 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/98533440-1a30-56a3-e053-b784100ade19> .
+
+:po62 a roar:PersonObservation ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Ursula" ;
+		pnv:baseSurname "Samonig" ;
+		pnv:literalName "Ursula Samonig" 
+	] ;
+	bio:birth [
+		a bio:Birth ;
+		sem:hasTimeStamp "1902"^^xsd:gYear ;
+		bio:principal :po62 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/7585d55c-1352-438f-8435-2b6c7067c922> .
+
+:po63 a roar:PersonObservation ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Ursula" ;
+		pnv:baseSurname "Samonig" ;
+		pnv:literalName "Ursula Samonig" 
+	] ;
+	bio:birth [
+		a bio:Birth ;
+		sem:hasTimeStamp "1902"^^xsd:gYear ;
+		bio:principal :po63 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/1b88d5db-3c4e-431f-ad8c-cdb04ff0eaf1> .
+
+:po64 a roar:PersonObservation ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:literalName "" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/5f007e7f-e946-4a16-baef-d2a40aaabcfe> .
+
+:po65 a roar:PersonObservation ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Hilda" ;
+		pnv:baseSurname "Simonitsch" ;
+		pnv:literalName "Hilda Simonitsch" 
+	] ;
+	bio:birth [
+		a bio:Birth ;
+		sem:hasTimeStamp "1916-10-08"^^xsd:date ;
+		bio:place [
+			rdf:value <https://sws.geonames.org/2770375/> ;
+			rdfs:label "Oberaichwald"
+		] ;
+		bio:principal :po65 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/9853344d-36a4-56a3-e053-b784100ade19> .
+
+:po66 a roar:PersonObservation ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Andor" ;
+		pnv:baseSurname "Latzko" ;
+		pnv:literalName "Andor Latzko" 
+	] ;
+	bio:birth [
+		a bio:Birth ;
+		sem:hasTimeStamp "1876-09-01"^^xsd:date ;
+		bio:place [
+			rdf:value <http://www.wikidata.org/entity/Q1781> ;
+			rdfs:label "Budapest"
+		] ;
+		bio:principal :po66 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/9853344e-8fdc-56a3-e053-b784100ade19> .
+
+:po67 a roar:PersonObservation ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Hilda" ;
+		pnv:baseSurname "Simonitsch" ;
+		pnv:literalName "Hilda Simonitsch" 
+	] ;
+	bio:birth [
+		a bio:Birth ;
+		sem:hasTimeStamp "1916"^^xsd:gYear ;
+		bio:principal :po67 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/75153b97-ae27-406a-a284-6d9f849a7948> .
+
+:po68 a roar:PersonObservation ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Andor" ;
+		pnv:baseSurname "Latzko" ;
+		pnv:literalName "Andor Latzko" 
+	] ;
+	bio:birth [
+		a bio:Birth ;
+		sem:hasTimeStamp "1876"^^xsd:gYear ;
+		bio:principal :po68 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/75153b97-ae27-406a-a284-6d9f849a7948> .
+
+:po69 a roar:PersonObservation ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Andor" ;
+		pnv:baseSurname "Latzko" ;
+		pnv:literalName "Andor Latzko" 
+	] ;
+	bio:birth [
+		a bio:Birth ;
+		sem:hasTimeStamp "1876-09-01"^^xsd:date ;
+		bio:place [
+			rdf:value <http://www.wikidata.org/entity/Q1781> ;
+			rdfs:label "Budapest"
+		] ;
+		bio:principal :po69 
+	] ;
+	bio:death [
+		a bio:Death ;
+		sem:hasTimeStamp "1943-09-11"^^xsd:date ;
+		bio:place [
+			rdf:value <http://www.wikidata.org/entity/Q727> ;
+			rdfs:label "Amsterdam"
+		] ;
+		bio:principal :po69 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/98533411-b5d1-56a3-e053-b784100ade19> .
+
+:po70 a roar:PersonObservation ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Andor" ;
+		pnv:baseSurname "Latzko" ;
+		pnv:literalName "Andor Latzko" 
+	] ;
+	bio:birth [
+		a bio:Birth ;
+		sem:hasTimeStamp "1876"^^xsd:gYear ;
+		bio:principal :po70 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/6e04820a-4168-4fd1-8efc-edf2532e6cab> .
+
+:po71 a roar:PersonObservation ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Ettel" ;
+		pnv:baseSurname "Krämer" ;
+		pnv:literalName "Ettel Krämer" 
+	] ;
+	bio:birth [
+		a bio:Birth ;
+		sem:hasTimeStamp "1910-03-24"^^xsd:date ;
+		bio:place [
+			rdf:value <https://sws.geonames.org/3100329/> ;
+			rdfs:label "Dobromil"
+		] ;
+		bio:principal :po71 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/98533421-6eca-56a3-e053-b784100ade19> .
+
+:po72 a roar:PersonObservation ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Ettel" ;
+		pnv:baseSurname "Felder-Krämer" ;
+		pnv:literalName "Ettel Felder-Krämer" 
+	] ;
+	bio:birth [
+		a bio:Birth ;
+		sem:hasTimeStamp "1910-03-24"^^xsd:date ;
+		bio:place [
+			rdf:value <https://sws.geonames.org/3100329/> ;
+			rdfs:label "Dobromil"
+		] ;
+		bio:principal :po72 
+	] ;
+	roar:documentedIn <https://collections.arolsen-archives.org/de/document/130285421> .
+
 <https://archief.amsterdam/indexen/deeds/9853344e-fb80-56a3-e053-b784100ade19> a roar:Document ;
 	rdfs:label "gezinskaart Katharina Samonig" .
 
@@ -348,4 +1209,154 @@
 
 <https://archief.amsterdam/indexen/deeds/2212bc58-db2d-43c1-b5bb-e64a2a409171> a roar:Document ;
 	rdfs:label "Pensioenkaart Berend Martinus Kiewiet" .
+
+<https://archief.amsterdam/indexen/deeds/5bcbae5d-8f86-4b88-9407-b9f0e1a03e7c> a roar:Document ;
+	rdfs:label "Politierapport 4/5 november 1940" .
+
+<https://www.drentsarchief.nl/onderzoeken/genealogie/zoeken/deeds/c341a1bc-0bc8-43a5-a4f2-c6c3671914eb> a roar:Document ;
+	rdfs:label "Bevolkingsregister Coevorden" .
+
+<https://www.drentsarchief.nl/onderzoeken/genealogie/zoeken/deeds/9ca22e53-c62a-4a9c-8192-d81efc73b896> a roar:Document ;
+	rdfs:label "Bevolkingsregister Dalen" .
+
+<https://www.drentsarchief.nl/onderzoeken/genealogie/zoeken/deeds/0327c1e7-0ff1-4246-9cfc-bddb8ce681e9> a roar:Document ;
+	rdfs:label "Bevolkingsregister Dalen" .
+
+<https://www.allegroningers.nl/zoeken-op-naam/deeds/b7b0f867-2bb4-41db-9e1f-b1ac66af4e35> a roar:Document ;
+	rdfs:label "Geboorteakte Berend Martinus Kiewiet" .
+
+<https://archief.amsterdam/indexen/deeds/64e1ebed-aff2-489d-a3d2-32a793f5fc3f> a roar:Document ;
+	rdfs:label "Woningkaart Van Oldenbarneveldtstraat 72 huis" .
+
+<https://archief.amsterdam/indexen/deeds/8ac5e5bd-b469-4d92-a2c9-6fe037356771> a roar:Document ;
+	rdfs:label "Woningkaart Ferdinand Bolstraat 106 i hoog" .
+
+<https://archief.amsterdam/indexen/deeds/b8617547-03a8-410a-8812-ab094efcd9e9> a roar:Document ;
+	rdfs:label "Woningkaart Oude Zijds Achterburgwal 75 huis" .
+
+<https://archief.amsterdam/indexen/deeds/3509a206-aa35-4101-8fe5-78b82b317bf0> a roar:Document ;
+	rdfs:label "Woningkaart Delistraat 48 II hoog" .
+
+<https://archief.amsterdam/indexen/deeds/eb68e1c6-bc47-408d-8a74-9875d30530ee> a roar:Document ;
+	rdfs:label "Woningkaart Albert Luthulistraat 33 D" .
+
+<https://hdl.handle.net/21.12113/D8DCBB8C309E4C5194B5DA4E95BD02BF> a roar:Document ;
+	rdfs:label "Geboorteakte Janna Maria Goedegebuure" .
+
+<https://hdl.handle.net/21.12124/BDD6F2CBCF5F49E7A718491558B9D40C> a roar:Document ;
+	rdfs:label "Bevolkingsregister Den Haag" .
+
+<https://resolver.kb.nl/resolve?urn=MMKB19:000832064:mpeg21:a00090> a roar:Document ;
+	rdfs:label "Rouwadvertentie Janna Maria Hoogteyling" .
+
+<https://www.wiewaswie.nl/nl/detail/106888334> a roar:Document ;
+	rdfs:label "Gezinskaart L. Goedegebuure" .
+
+<https://hdl.handle.net/21.12124/AAD6EE0B5D8F4FBA8FE93FECE03FBC47> a roar:Document ;
+	rdfs:label "Gezinskaart Jacob Hoogteijling" .
+
+<https://archief.amsterdam/indexen/deeds/763aef2e-478e-488c-8a44-160420b8f352> a roar:Document ;
+	rdfs:label "Overgenomen delen 115 blad 67" .
+
+<https://www.openarch.nl/wba:ffb57474-3514-4424-8fc4-dfd32148c9ad> a roar:Document ;
+	rdfs:label "Bevolkingsregister Willemstad" .
+
+<https://westbrabantsarchief.nl/collectie/voorouders/deeds/9dfb3285-2019-684e-6a69-a379e718568f> a roar:Document ;
+	rdfs:label "Geboorteakte Hendrik den Engelse" .
+
+<https://hdl.handle.net/21.12124/1422EABFB75340AA863E29ADB2EAFD7F> a roar:Document ;
+	rdfs:label "Gezinskaart Hendrik den Engelse" .
+
+<https://hdl.handle.net/21.12124/80011712D551414EA6A64CE9550D199E> a roar:Document ;
+	rdfs:label "Gezinskaart Hendrik den Engelse" .
+
+<https://proxy.archieven.nl/0/735D32082F0B484EBC294DFA807D7AC4> a roar:Document ;
+	rdfs:label "Geboorteakte Neeltje Dorleijn" .
+
+<https://archief.amsterdam/indexen/deeds/fda1e74b-a2e0-483c-9bd5-403d813f4965> a roar:Document ;
+	rdfs:label "Woningkaart Tintorettostraat 37 1 hoog" .
+
+<https://archief.amsterdam/indexen/deeds/18a98f9e-ce0f-48c1-8173-b3db15c56226> a roar:Document ;
+	rdfs:label "Bevolkingsregister 1853-1863" .
+
+<https://archief.amsterdam/indexen/deeds/3b1d7857-2b08-40f1-9bc1-8ab9e794a3ab> a roar:Document ;
+	rdfs:label "Bevolkingsregister 1853-1863" .
+
+<https://archief.amsterdam/indexen/deeds/c9bcbfa9-7473-4ad2-9475-db986d8d3707> a roar:Document ;
+	rdfs:label "Bevolkingsregister 1874-1893" .
+
+<https://archief.amsterdam/indexen/deeds/0798cd40-7552-4bd1-885f-47b63f9a5590> a roar:Document ;
+	rdfs:label "Bevolkingsregister 1874-1893" .
+
+<https://archief.amsterdam/indexen/deeds/2ebd6bf1-42ba-4d65-a763-6e3fbac62bb4> a roar:Document ;
+	rdfs:label "Bevolkingsregister 1874-1893" .
+
+<https://archief.amsterdam/indexen/deeds/bace9751-abda-4f08-b504-1b2227017211> a roar:Document ;
+	rdfs:label "woningkaart Reynier Vinkeleskade 66 huis i" .
+
+<https://archief.amsterdam/indexen/deeds/9853343e-3e0e-56a3-e053-b784100ade19> a roar:Document ;
+	rdfs:label "gezinskaart Maria Samonig" .
+
+<https://archief.amsterdam/indexen/deeds/9853341a-3a55-56a3-e053-b784100ade19> a roar:Document ;
+	rdfs:label "archiefkaart Maria Samonig" .
+
+<https://archief.amsterdam/indexen/deeds/354de3a2-c908-4c5e-876b-8537e0326edd> a roar:Document ;
+	rdfs:label "Woningkaart Albrecht Dürerstraat 43 huis" .
+
+<https://archief.amsterdam/indexen/deeds/e450cda3-c8ec-4b0a-8815-715cc82ea61a> a roar:Document ;
+	rdfs:label "Woningkaart Schubertstraat 70 huis" .
+
+<https://archief.amsterdam/indexen/deeds/68fb7053-edf7-40d2-9bb1-746a19cf36eb> a roar:Document ;
+	rdfs:label "Woningkaart Minervalaan 80" .
+
+<https://archief.amsterdam/indexen/deeds/42ef57a0-7d3c-46e1-97f5-fd35d8095803> a roar:Document ;
+	rdfs:label "Woningkaart Murillostraat 8 bovenhuis" .
+
+<https://archief.amsterdam/indexen/deeds/9853344d-1f52-56a3-e053-b784100ade19> a roar:Document ;
+	rdfs:label "Gezinskaart J. Samonig" .
+
+<https://archief.amsterdam/indexen/deeds/2a631083-6c64-4c9d-93c5-125bc02be56a> a roar:Document ;
+	rdfs:label "Woningkaart Rubensstraat 36" .
+
+<https://archief.amsterdam/indexen/deeds/d5cd2ca8-57cb-4a16-b0ad-c5d00d80d2fa> a roar:Document ;
+	rdfs:label "Woningkaart Scheldestraat 17" .
+
+<https://archief.amsterdam/indexen/deeds/ec730cdf-abcb-4174-8525-c7f2a261b043> a roar:Document ;
+	rdfs:label "Woningkaart Scheldestraat 17 1 hoog" .
+
+<https://archief.amsterdam/indexen/deeds/6fecf056-0354-4b9d-9992-7e1563e44a84> a roar:Document ;
+	rdfs:label "Woningkaart Churchill-laan 220 huis" .
+
+<https://archief.amsterdam/indexen/deeds/98533440-1a30-56a3-e053-b784100ade19> a roar:Document ;
+	rdfs:label "Gezinskaart Ursula Samonig" .
+
+<https://archief.amsterdam/indexen/deeds/7585d55c-1352-438f-8435-2b6c7067c922> a roar:Document ;
+	rdfs:label "Woningkaart Parnassusweg 24" .
+
+<https://archief.amsterdam/indexen/deeds/1b88d5db-3c4e-431f-ad8c-cdb04ff0eaf1> a roar:Document ;
+	rdfs:label "Woningkaart Tesselschadestraat 22 huis" .
+
+<https://archief.amsterdam/indexen/deeds/5f007e7f-e946-4a16-baef-d2a40aaabcfe> a roar:Document ;
+	rdfs:label "Woningkaart Willem van Weldammelaan 14 gelegen op 2e woonlaag" .
+
+<https://archief.amsterdam/indexen/deeds/9853344d-36a4-56a3-e053-b784100ade19> a roar:Document ;
+	rdfs:label "Gezinskaart H. Simonitsch" .
+
+<https://archief.amsterdam/indexen/deeds/9853344e-8fdc-56a3-e053-b784100ade19> a roar:Document ;
+	rdfs:label "Gezinskaart A. Latzko" .
+
+<https://archief.amsterdam/indexen/deeds/75153b97-ae27-406a-a284-6d9f849a7948> a roar:Document ;
+	rdfs:label "Woningkaart Cliostraat 20" .
+
+<https://archief.amsterdam/indexen/deeds/98533411-b5d1-56a3-e053-b784100ade19> a roar:Document ;
+	rdfs:label "Archiefkaart Andor Latzko" .
+
+<https://archief.amsterdam/indexen/deeds/6e04820a-4168-4fd1-8efc-edf2532e6cab> a roar:Document ;
+	rdfs:label "Woningkaart Waalstraat 37 2 hoog" .
+
+<https://archief.amsterdam/indexen/deeds/98533421-6eca-56a3-e053-b784100ade19> a roar:Document ;
+	rdfs:label "Archiefkaart Ettel Krämer" .
+
+<https://collections.arolsen-archives.org/de/document/130285421> a roar:Document ;
+	rdfs:label "Kaart Joodsche Raad Ettel Felder-Krämer" .
 

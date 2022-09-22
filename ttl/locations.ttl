@@ -36,16 +36,70 @@
 		geo:asWKT "POINT( 5.730833 51.972222)"^^geo:wktLiteral
 	] .
 
-<http://www.wikidata.org/entity/Q152658> a roar:Location ; 
-	rdfs:label "Sobibor" ;
+<http://www.wikidata.org/entity/Q2479947> a roar:Location ; 
+	rdfs:label "Oudeschans" ;
 	geo:hasGeometry [
-		geo:asWKT "POINT( 23.594136 51.446992)"^^geo:wktLiteral
+		geo:asWKT "POINT( 7.140000 53.138056)"^^geo:wktLiteral
+	] .
+
+<http://www.wikidata.org/entity/Q992371> a roar:Location ; 
+	rdfs:label "Bruinisse" ;
+	geo:hasGeometry [
+		geo:asWKT "POINT( 4.093056 51.660000)"^^geo:wktLiteral
 	] .
 
 <http://www.wikidata.org/entity/Q36600> a roar:Location ; 
 	rdfs:label "Den Haag" ;
 	geo:hasGeometry [
-		geo:asWKT "POINT(4.310000 52.080000)"^^geo:wktLiteral
+		geo:asWKT "POINT( 4.310000 52.080000)"^^geo:wktLiteral
+	] .
+
+<http://www.wikidata.org/entity/Q33439227> a roar:Location ; 
+	rdfs:label "Gorinchem" ;
+	geo:hasGeometry [
+		geo:asWKT "POINT( 4.972431 51.836519)"^^geo:wktLiteral
+	] .
+
+<http://www.wikidata.org/entity/Q2483396> a roar:Location ; 
+	rdfs:label "Fijnaart" ;
+	geo:hasGeometry [
+		geo:asWKT "POINT( 4.47 51.6375)"^^geo:wktLiteral
+	] .
+
+<http://www.wikidata.org/entity/Q1785561> a roar:Location ; 
+	rdfs:label "Koudekerke" ;
+	geo:hasGeometry [
+		geo:asWKT "POINT( 3.5528 51.4808)"^^geo:wktLiteral
+	] .
+
+<http://sws.geonames.org/2774786/> a roar:Location ; 
+	rdfs:label "Kanzianiberg" ;
+	geo:hasGeometry [
+		geo:asWKT "POINT( 13.866667 46.550000)"^^geo:wktLiteral
+	] .
+
+<https://sws.geonames.org/2770375/> a roar:Location ; 
+	rdfs:label "Oberaichwald" ;
+	geo:hasGeometry [
+		geo:asWKT "POINT(13.92583 46.56)"^^geo:wktLiteral
+	] .
+
+<http://www.wikidata.org/entity/Q1781> a roar:Location ; 
+	rdfs:label "Boedapest" ;
+	geo:hasGeometry [
+		geo:asWKT "POINT( 19.040833 47.498333)"^^geo:wktLiteral
+	] .
+
+<https://sws.geonames.org/3100329/> a roar:Location ; 
+	rdfs:label "Dobromil" ;
+	geo:hasGeometry [
+		geo:asWKT "POINT( 15.99016 51.58052)"^^geo:wktLiteral
+	] .
+
+<http://www.wikidata.org/entity/Q152658> a roar:Location ; 
+	rdfs:label "Sobibor" ;
+	geo:hasGeometry [
+		geo:asWKT "POINT( 23.594136 51.446992)"^^geo:wktLiteral
 	] .
 
 <https://adamlink.nl/geo/address/A172897> a roar:Location ; 
@@ -67,9 +121,9 @@
 	] .
 
 <https://adamlink.nl/geo/address/A221755> a roar:Location ; 
-	rdfs:label "Reinier Vinkeleskade 66" ;
+	rdfs:label "Reijnier Vinkeleskade 66" ;
 	geo:hasGeometry [
-		geo:asWKT "POINT(4.875723  52.352224)"^^geo:wktLiteral
+		geo:asWKT "POINT(4.875723 52.352224)"^^geo:wktLiteral
 	] .
 
 <https://adamlink.nl/geo/address/A221704> a roar:Location ; 
@@ -136,5 +190,275 @@
 	rdfs:label "Van Oldenbarneveldstraat 72" ;
 	geo:hasGeometry [
 		geo:asWKT "POINT(4.874045 52.374743)"^^geo:wktLiteral
+	] .
+
+<http://www.wikidata.org/entity/Q19348546> a roar:Location ; 
+	rdfs:label "Molenstraat Coevorden" ;
+	geo:hasGeometry [
+		geo:asWKT "POINT( 6.738900 52.662600)"^^geo:wktLiteral
+	] .
+
+<http://www.wikidata.org/entity/Q2006601> a roar:Location ; 
+	rdfs:label "Schoonebeek" ;
+	geo:hasGeometry [
+		geo:asWKT "POINT( 6.883056 52.661944)"^^geo:wktLiteral
+	] .
+
+<http://www.wikidata.org/entity/Q3025870> a roar:Location ; 
+	rdfs:label "Zuidbroek" ;
+	geo:hasGeometry [
+		geo:asWKT "POINT( 6.861111 53.163056)"^^geo:wktLiteral
+	] .
+
+<https://adamlink.nl/geo/address/A18440> a roar:Location ; 
+	rdfs:label "Oudezijds Achterburgwal 75" ;
+	geo:hasGeometry [
+		geo:asWKT "POINT(4.898622 52.372907)"^^geo:wktLiteral
+	] .
+
+<http://bag.basisregistraties.overheid.nl/bag/id/pand/0363100012153320> a roar:Location ; 
+	rdfs:label "Ferdinand Bolstraat 106" ;
+	geo:hasGeometry [
+		geo:asWKT "POINT(4.89053 52.35377)"^^geo:wktLiteral
+	] .
+
+<https://adamlink.nl/geo/address/A152712> a roar:Location ; 
+	rdfs:label "Delistraat 48" ;
+	geo:hasGeometry [
+		geo:asWKT "POINT(4.933804 52.365255)"^^geo:wktLiteral
+	] .
+
+<https://adamlink.nl/geo/address/A211626> a roar:Location ; 
+	rdfs:label "Louis Bothastraat 33" ;
+	geo:hasGeometry [
+		geo:asWKT "POINT(4.919183 52.352556)"^^geo:wktLiteral
+	] .
+
+<http://bag.basisregistraties.overheid.nl/bag/id/pand/0518100000322199> a roar:Location ; 
+	rdfs:label "Hulshorststraat 80" ;
+	geo:hasGeometry [
+		geo:asWKT "POINT( 4.287370 52.065230)"^^geo:wktLiteral
+	] .
+
+<http://www.wikidata.org/entity/Q19619596> a roar:Location ; 
+	rdfs:label "Van der Duynstraat" ;
+	geo:hasGeometry [
+		geo:asWKT "POINT( 4.317200 52.072900)"^^geo:wktLiteral
+	] .
+
+<http://www.wikidata.org/entity/Q19201260> a roar:Location ; 
+	rdfs:label "Gortmolen" ;
+	geo:hasGeometry [
+		geo:asWKT "POINT( 4.313400 52.071800)"^^geo:wktLiteral
+	] .
+
+<http://www.wikidata.org/entity/Q19464738> a roar:Location ; 
+	rdfs:label "Rembrandtstraat" ;
+	geo:hasGeometry [
+		geo:asWKT "POINT( 4.304300 52.071000)"^^geo:wktLiteral
+	] .
+
+<http://www.wikidata.org/entity/Q19307487> a roar:Location ; 
+	rdfs:label "Koningstraat" ;
+	geo:hasGeometry [
+		geo:asWKT "POINT( 4.312400 52.070800)"^^geo:wktLiteral
+	] .
+
+<https://adamlink.nl/geo/address/A132107> a roar:Location ; 
+	rdfs:label "Van Eeghenstraat 25" ;
+	geo:hasGeometry [
+		geo:asWKT "POINT(4.876104 52.358009)"^^geo:wktLiteral
+	] .
+
+<http://www.wikidata.org/entity/Q18956600> a roar:Location ; 
+	rdfs:label "Blauwe Haansteeg" ;
+	geo:hasGeometry [
+		geo:asWKT "POINT( 4.977400 51.828600)"^^geo:wktLiteral
+	] .
+
+<http://www.wikidata.org/entity/Q76937> a roar:Location ; 
+	rdfs:label "Willemstad" ;
+	geo:hasGeometry [
+		geo:asWKT "POINT( 4.4378 51.6919)"^^geo:wktLiteral
+	] .
+
+<http://www.wikidata.org/entity/Q19202521> a roar:Location ; 
+	rdfs:label "Heemskerckstraat" ;
+	geo:hasGeometry [
+		geo:asWKT "POINT( 4.2971 52.0824)"^^geo:wktLiteral
+	] .
+
+<http://bag.basisregistraties.overheid.nl/bag/id/pand/0518100000314701> a roar:Location ; 
+	rdfs:label "Notenplein 15" ;
+	geo:hasGeometry [
+		geo:asWKT "POINT( 4.255470 52.063320)"^^geo:wktLiteral
+	] .
+
+<http://www.wikidata.org/entity/Q19117628> a roar:Location ; 
+	rdfs:label "Emmastraat" ;
+	geo:hasGeometry [
+		geo:asWKT "POINT( 4.3322 52.0836)"^^geo:wktLiteral
+	] .
+
+<https://adamlink.nl/geo/address/A173631> a roar:Location ; 
+	rdfs:label "Tintorettostraat 37" ;
+	geo:hasGeometry [
+		geo:asWKT "POINT(4.868917 52.347096)"^^geo:wktLiteral
+	] .
+
+<http://www.wikidata.org/entity/Q183> a roar:Location ; 
+	rdfs:label "Duitsland" ;
+	geo:hasGeometry [
+		geo:asWKT "POINT( 10 51)"^^geo:wktLiteral
+	] .
+
+<https://adamlink.nl/geo/address/A89095> a roar:Location ; 
+	rdfs:label "buurt C 350" ;
+	geo:hasGeometry [
+		geo:asWKT "POINT(4.89763 52.367879)"^^geo:wktLiteral
+	] .
+
+<https://adamlink.nl/geo/address/A103140> a roar:Location ; 
+	rdfs:label "buurt P 23" ;
+	geo:hasGeometry [
+		geo:asWKT "POINT(4.903274 52.36641)"^^geo:wktLiteral
+	] .
+
+<https://adamlink.nl/geo/address/A103139> a roar:Location ; 
+	rdfs:label "Nieuwe Heerengracht 35" ;
+	geo:hasGeometry [
+		geo:asWKT "POINT(4.903274 52.36641)"^^geo:wktLiteral
+	] .
+
+<https://adamlink.nl/geo/address/A116711> a roar:Location ; 
+	rdfs:label "Nieuwe Heerengracht 145" ;
+	geo:hasGeometry [
+		geo:asWKT "POINT(4.908914 52.368908)"^^geo:wktLiteral
+	] .
+
+<https://adamlink.nl/geo/address/A89705> a roar:Location ; 
+	rdfs:label "Binnen Amstel 15" ;
+	geo:hasGeometry [
+		geo:asWKT "POINT(4.896974 52.367821)"^^geo:wktLiteral
+	] .
+
+<https://adamlink.nl/geo/address/A221388> a roar:Location ; 
+	rdfs:label "Johannes Verhulststraat 169" ;
+	geo:hasGeometry [
+		geo:asWKT "POINT(4.86751 52.353113)"^^geo:wktLiteral
+	] .
+
+<http://www.wikidata.org/entity/Q206000> a roar:Location ; 
+	rdfs:label "Zirl" ;
+	geo:hasGeometry [
+		geo:asWKT "POINT( 11.241389 47.273333)"^^geo:wktLiteral
+	] .
+
+<https://adamlink.nl/geo/address/A173060> a roar:Location ; 
+	rdfs:label "Albrecht Dürerstraat 43" ;
+	geo:hasGeometry [
+		geo:asWKT "POINT(4.87618 52.347718)"^^geo:wktLiteral
+	] .
+
+<https://adamlink.nl/geo/address/A173908> a roar:Location ; 
+	rdfs:label "Schubertstraat 70" ;
+	geo:hasGeometry [
+		geo:asWKT "POINT(4.877532 52.345667)"^^geo:wktLiteral
+	] .
+
+<https://adamlink.nl/geo/address/A173272> a roar:Location ; 
+	rdfs:label "Murillostraat 8" ;
+	geo:hasGeometry [
+		geo:asWKT "POINT(4.874581 52.346305)"^^geo:wktLiteral
+	] .
+
+<https://adamlink.nl/geo/address/A173990> a roar:Location ; 
+	rdfs:label "Minervalaan 80" ;
+	geo:hasGeometry [
+		geo:asWKT "POINT(4.872198 52.345412)"^^geo:wktLiteral
+	] .
+
+<https://adamlink.nl/geo/address/A131846> a roar:Location ; 
+	rdfs:label "Van Baerlestraat 16" ;
+	geo:hasGeometry [
+		geo:asWKT "POINT(4.877327 52.359554)"^^geo:wktLiteral
+	] .
+
+<https://adamlink.nl/geo/address/A176904> a roar:Location ; 
+	rdfs:label "Scheldestraat 17" ;
+	geo:hasGeometry [
+		geo:asWKT "POINT(4.891489 52.347558)"^^geo:wktLiteral
+	] .
+
+<https://adamlink.nl/geo/address/A173178> a roar:Location ; 
+	rdfs:label "Rubensstraat 36" ;
+	geo:hasGeometry [
+		geo:asWKT "POINT(4.873385 52.348473)"^^geo:wktLiteral
+	] .
+
+<https://adamlink.nl/geo/address/A176892> a roar:Location ; 
+	rdfs:label "Noorder Amstellaan 220" ;
+	geo:hasGeometry [
+		geo:asWKT "POINT(4.891821 52.34743)"^^geo:wktLiteral
+	] .
+
+<https://adamlink.nl/geo/address/A174239> a roar:Location ; 
+	rdfs:label "Parnassusweg 24" ;
+	geo:hasGeometry [
+		geo:asWKT "POINT(4.867168 52.345306)"^^geo:wktLiteral
+	] .
+
+<https://adamlink.nl/geo/address/A137072> a roar:Location ; 
+	rdfs:label "Tesselschadestraat 22" ;
+	geo:hasGeometry [
+		geo:asWKT "POINT(4.878488 52.362329)"^^geo:wktLiteral
+	] .
+
+<http://www.wikidata.org/entity/Q9919> a roar:Location ; 
+	rdfs:label "Graft-De Rijp" ;
+	geo:hasGeometry [
+		geo:asWKT "POINT( 4.8417 52.5589)"^^geo:wktLiteral
+	] .
+
+<http://bag.basisregistraties.overheid.nl/bag/id/pand/0363100012081771> a roar:Location ; 
+	rdfs:label "Willem van Weldammelaan 14" ;
+	geo:hasGeometry [
+		geo:asWKT "POINT(4.87525 52.33054)"^^geo:wktLiteral
+	] .
+
+<http://www.wikidata.org/entity/Q40> a roar:Location ; 
+	rdfs:label "Oostenrijk" ;
+	geo:hasGeometry [
+		geo:asWKT "POINT( 13.781000 47.556111)"^^geo:wktLiteral
+	] .
+
+<https://adamlink.nl/geo/address/A173105> a roar:Location ; 
+	rdfs:label "Cliostraat 20" ;
+	geo:hasGeometry [
+		geo:asWKT "POINT(4.875543 52.347561)"^^geo:wktLiteral
+	] .
+
+<http://www.wikidata.org/entity/Q34713> a roar:Location ; 
+	rdfs:label "Salzburg" ;
+	geo:hasGeometry [
+		geo:asWKT "POINT( 13.04768 47.7972)"^^geo:wktLiteral
+	] .
+
+<https://adamlink.nl/geo/address/A178387> a roar:Location ; 
+	rdfs:label "Waalstraat 37" ;
+	geo:hasGeometry [
+		geo:asWKT "POINT(4.90012 52.346052)"^^geo:wktLiteral
+	] .
+
+<http://www.wikidata.org/entity/Q323420> a roar:Location ; 
+	rdfs:label "Kamp Westerbork" ;
+	geo:hasGeometry [
+		geo:asWKT "POINT( 6.606944 52.916667)"^^geo:wktLiteral
+	] .
+
+<http://www.wikidata.org/entity/Q7332> a roar:Location ; 
+	rdfs:label "Bergen-Belsen" ;
+	geo:hasGeometry [
+		geo:asWKT "POINT( 9.907099 52.758899)"^^geo:wktLiteral
 	] .
 

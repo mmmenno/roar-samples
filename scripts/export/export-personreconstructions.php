@@ -14,6 +14,7 @@ while($row = $result->fetch_assoc()){
 	# PERSOONSGEGEVENS HALEN
 
 	$sql2 = "SELECT * FROM persoonsobservaties where reconstructieid = " . $row['id'];
+	//$sql2 = "SELECT * FROM persoonsobservaties where reconstructieid = 6";
 	$result2 = $mysqli->query($sql2);
 
 	$vns = array();
@@ -68,6 +69,10 @@ while($row = $result->fetch_assoc()){
 	$pob = array_unique($pob);
 
 	$person = array("pnv" => array("literalName" => ""));
+
+	if(strlen($row['sameas'])){
+		$person['sameas'] = $row['sameas'];
+	}
 	if(count($vns)){
 		$person['pnv']["givenName"] = array_key_first($vns);
 		$person['pnv']["literalName"] .= array_key_first($vns) . " ";
@@ -106,13 +111,14 @@ while($row = $result->fetch_assoc()){
 
 	// WOONADRESSEN HALEN
 
-	$poids = array();
+	$poids = array(0);
 	$residencies = array();
 	foreach($derivedfrom as $k => $v){
 		$poids[] = str_replace(":po","",$v);
 	}
 	$sql3 = "SELECT * FROM woonadresobservaties where persoonsobservatieid IN ( " . implode(",",$poids) . ")";
 	$result3 = $mysqli->query($sql3);
+
 
 	while($row3 = $result3->fetch_assoc()){
 		$residencies[] = $row3;
@@ -131,7 +137,7 @@ while($row = $result->fetch_assoc()){
 }
 
 //print_r($reconstructies);
-
+//die;
 
 
 function orderResidencies($observations){
@@ -143,9 +149,13 @@ function orderResidencies($observations){
 		$byuri[$v['nearesturi']][] = $v;
 	}
 
+	//print_r($byuri);
+	//die;
 
 	// step 2: determine periods
 	$stays = array();
+	$endonlystays = array();
+
 	foreach($byuri as $uri => $locobservations){
 		unset($earliest);
 		unset($latest);
@@ -178,19 +188,92 @@ function orderResidencies($observations){
 			$tot = substr($latest,0,4) . "-" . substr($latest,4,2) . "-" . substr($latest,6,2);
 		}
 		$labels = array_unique($labels);
-		$stays[] = array(
-			"uri" => $uri,
-			"latlong" => $obsinfo['latlong'],
-			"labels" => $labels,
-			"van" => $van,
-			"tot" => $tot
-		);
+
+		if(strlen($van) && strlen($tot) && (int)$earliest > (int)$latest){ // Zirl, A'dam, Zirl
+			$stays[] = array(
+				"uri" => $uri,
+				"latlong" => $obsinfo['latlong'],
+				"labels" => $labels,
+				"van" => $van,
+				"tot" => "",
+				"sortby" => $van
+			);
+			$endonlystays[] = array(
+				"uri" => $uri,
+				"latlong" => $obsinfo['latlong'],
+				"labels" => $labels,
+				"van" => "",
+				"tot" => $tot,
+				"sortby" => $tot
+			);
+		}elseif(strlen($van)){
+			$stays[] = array(
+				"uri" => $uri,
+				"latlong" => $obsinfo['latlong'],
+				"labels" => $labels,
+				"van" => $van,
+				"tot" => $tot,
+				"sortby" => $van
+			);
+		}elseif(strlen($tot)){
+			$endonlystays[] = array(
+				"uri" => $uri,
+				"latlong" => $obsinfo['latlong'],
+				"labels" => $labels,
+				"van" => $van,
+				"tot" => $tot,
+				"sortby" => $tot
+			);
+		}
+
 	}
 
+	// step TODO: if a stay falls completely within another stay, breakup this second stay in two stays (a person might live on one address for two different periods)
+
+	//print_r($endonlystays);
+	//die;
 
 	// step 3: order stays chronologically
 	usort($stays, 'sortByStartdate');
+
+
+	// step 4: get the stays without a startdate in the proper position
+
+	foreach($endonlystays as $v){
+
+		$newstays = $stays;
+
+		$endonlyend = (int)str_replace("-","",$v['tot']);
+
+		for ($i=0; $i < count($stays); $i++) { 
+
+			$sortstart = (int)str_replace("-","",$stays[$i]['sortby']);
+
+			$diff = $endonlyend - $sortstart;
+
+			if($diff <= 0){ // if startless enddate before sortdate
+				$newstays = array_merge(array_slice($stays, 0, $i), array($v), array_slice($stays, $i, null));
+				break; // get out of here, startless enddate will before next sortdate as well!
+			}
+
+		}
+
+		// if startless enddate after last sortdate
+		$lastnr = count($stays)-1;
+		$lastsortstart = (int)str_replace("-","",$stays[$lastnr]['sortby']);
+
+		if($endonlyend > $lastsortstart){
+			$newstays[] = $v;
+		}
+
+
+		$stays = $newstays;
+	}
+
 	
+
+	//print_r($stays);
+	//die;
 	return $stays;
 }
 
@@ -215,6 +298,7 @@ echo "
 @prefix xsd:		<http://www.w3.org/2001/XMLSchema#> .
 @prefix geo: 		<http://www.opengis.net/ont/geosparql#> .
 @prefix pnv:		<https://w3id.org/pnv#> .
+@prefix owl:		<http://www.w3.org/2002/07/owl#> .
 \n\n";
 
 
@@ -224,7 +308,10 @@ foreach($reconstructies as $rkey => $r){
 	//echo ":pr-" . hash("adler32",implode("-",$r['derivedFrom'])) . " a roar:PersonReconstruction ;\n";
 	echo ":pr" . $rkey . " a roar:PersonReconstruction ;\n";
 		echo "\trdfs:label \"" . $r['pnv']['literalName'] . "\" ;\n";
-		echo "\tpnv:hasName [ \n";
+		if(isset($r['sameas'])){
+    		echo "\towl:sameAs <" . $r['sameas'] . "> ;\n";
+    	}
+    	echo "\tpnv:hasName [ \n";
 			echo "\t\ta pnv:PersonName ;\n";
 			if(isset($r['pnv']['givenName'])){
         		echo "\t\tpnv:givenName \"" . $r['pnv']['givenName'] . "\" ;\n";
@@ -286,7 +373,7 @@ foreach($reconstructies as $rkey => $r){
 				if(strlen($residence['tot'])){
 			    	echo "\t\tsem:hasEarliestEndTimeStamp \"" . $residence['tot'] . "\"^^xsd:date ;\n";
 				}
-			    echo "\t\troar:role \"residence\" \n";
+			    echo "\t\troar:role \"resident\" \n";
 			    
 			echo "\t] ;\n";
     	}
@@ -294,21 +381,7 @@ foreach($reconstructies as $rkey => $r){
 }
 
 
-die;
 
-$sql = "select distinct(geboorteplaatsuri), geboorteplaatslatlong from persoonsobservaties where geboorteplaatsuri <> ''";
-$result = $mysqli->query($sql);
-
-while($row = $result->fetch_assoc()){
-
-	$wgspoints = explode(",",$row['geboorteplaatslatlong']);
-	$wgswkt = "POINT(" . $wgspoints[0] . " " .$wgspoints[1] . ")";
-
-	echo "<" . $row['geboorteplaatsuri'] . "> geo:hasGeometry [\n";
-		echo "\tgeo:asWKT \"" . $wgswkt . "\"^^geo:wktLiteral\n";
-	echo "] .\n\n";
-
-}
 
 
 ?>

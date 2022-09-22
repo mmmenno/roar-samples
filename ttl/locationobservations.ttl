@@ -253,3 +253,1109 @@
 	] ;
 	roar:documentedIn <https://archief.amsterdam/indexen/deeds/92b1fb8c-0b46-4cdf-84a6-3830d4d437a5> .
 
+:lo27 a roar:LocationObservation ;
+	rdfs:label "Spaarnd:str: 46 huis" ;
+	geo:geoWithin <https://adamlink.nl/geo/address/A196364> ;
+	roar:hasPerson [
+		rdf:value :po20 ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/5bcbae5d-8f86-4b88-9407-b9f0e1a03e7c> .
+
+:lo28 a roar:LocationObservation ;
+	rdfs:label "Molenstraat N40" ;
+	geo:geoWithin <http://www.wikidata.org/entity/Q19348546> ;
+	roar:hasPerson [
+		rdf:value :po21 ;
+		sem:hasLatestBeginTimeStamp "1874-05-29"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1875-10-06"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://www.drentsarchief.nl/onderzoeken/genealogie/zoeken/deeds/c341a1bc-0bc8-43a5-a4f2-c6c3671914eb> .
+
+:lo29 a roar:LocationObservation ;
+	rdfs:label "Schoonebeek No 51 KO" ;
+	geo:geoWithin <http://www.wikidata.org/entity/Q2006601> ;
+	roar:hasPerson [
+		rdf:value :po22 ;
+		sem:hasLatestBeginTimeStamp "1875-10-08"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://www.drentsarchief.nl/onderzoeken/genealogie/zoeken/deeds/9ca22e53-c62a-4a9c-8192-d81efc73b896> .
+
+:lo30 a roar:LocationObservation ;
+	rdfs:label "Schoonebeek No 65" ;
+	geo:geoWithin <http://www.wikidata.org/entity/Q2006601> ;
+	roar:hasPerson [
+		rdf:value :po23 ;
+		sem:hasEarliestEndTimeStamp "1882-05-08"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://www.drentsarchief.nl/onderzoeken/genealogie/zoeken/deeds/0327c1e7-0ff1-4246-9cfc-bddb8ce681e9> .
+
+:lo31 a roar:LocationObservation ;
+	rdfs:label "Zuidbroek Groningen" ;
+	geo:geoWithin <http://www.wikidata.org/entity/Q3025870> ;
+	roar:hasPerson [
+		rdf:value :po23 ;
+		sem:hasLatestBeginTimeStamp "1882-05-08"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://www.drentsarchief.nl/onderzoeken/genealogie/zoeken/deeds/0327c1e7-0ff1-4246-9cfc-bddb8ce681e9> .
+
+:lo32 a roar:LocationObservation ;
+	rdfs:label "Van Oldenbarneveldtstraat 72 huis" ;
+	geo:geoWithin <https://adamlink.nl/geo/address/A164430> ;
+	roar:hasPerson [
+		rdf:value :po25 ;
+		sem:hasLatestBeginTimeStamp "1941-03-30"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1944-07-17"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:hasPerson [
+		rdf:value :po26 ;
+		sem:hasLatestBeginTimeStamp "1941-03-30"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1947-03-30"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/64e1ebed-aff2-489d-a3d2-32a793f5fc3f> .
+
+:lo34 a roar:LocationObservation ;
+	rdfs:label "Oude Zijds Achterburgwal 75 hs" ;
+	geo:geoWithin <https://adamlink.nl/geo/address/A18440> ;
+	roar:hasPerson [
+		rdf:value :po27 ;
+		sem:hasLatestBeginTimeStamp "1986-04-02"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/8ac5e5bd-b469-4d92-a2c9-6fe037356771> .
+
+:lo35 a roar:LocationObservation ;
+	rdfs:label "Ferdinand Bolstraat 106 i hoog" ;
+	geo:geoWithin <http://bag.basisregistraties.overheid.nl/bag/id/pand/0363100012153320> ;
+	roar:hasPerson [
+		rdf:value :po27 ;
+		sem:hasLatestBeginTimeStamp "1984-09-20"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1986-04-02"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/8ac5e5bd-b469-4d92-a2c9-6fe037356771> .
+
+:lo36 a roar:LocationObservation ;
+	rdfs:label "Delistraat 48 II" ;
+	geo:geoWithin <https://adamlink.nl/geo/address/A152712> ;
+	roar:hasPerson [
+		rdf:value :po28 ;
+		sem:hasLatestBeginTimeStamp "1988-01-05"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/b8617547-03a8-410a-8812-ab094efcd9e9> .
+
+:lo37 a roar:LocationObservation ;
+	rdfs:label "Oude Zijds Achterburgwal 75 hs" ;
+	geo:geoWithin <https://adamlink.nl/geo/address/A18440> ;
+	roar:hasPerson [
+		rdf:value :po28 ;
+		sem:hasLatestBeginTimeStamp "1986-04-02"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1988-01-05"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/b8617547-03a8-410a-8812-ab094efcd9e9> .
+
+:lo38 a roar:LocationObservation ;
+	rdfs:label "Albert Luthulistraat 33 D" ;
+	geo:geoWithin <https://adamlink.nl/geo/address/A211626> ;
+	roar:hasPerson [
+		rdf:value :po29 ;
+		sem:hasLatestBeginTimeStamp "1989-02-13"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/3509a206-aa35-4101-8fe5-78b82b317bf0> .
+
+:lo39 a roar:LocationObservation ;
+	rdfs:label "Delistraat 48 II hoog" ;
+	geo:geoWithin <https://adamlink.nl/geo/address/A152712> ;
+	roar:hasPerson [
+		rdf:value :po29 ;
+		sem:hasLatestBeginTimeStamp "1988-01-05"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1989-02-13"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/3509a206-aa35-4101-8fe5-78b82b317bf0> .
+
+:lo40 a roar:LocationObservation ;
+	rdfs:label "Albert Luthulistraat 33 D" ;
+	geo:geoWithin <https://adamlink.nl/geo/address/A211626> ;
+	roar:hasPerson [
+		rdf:value :po30 ;
+		sem:hasLatestBeginTimeStamp "1989-02-13"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/eb68e1c6-bc47-408d-8a74-9875d30530ee> .
+
+:lo41 a roar:LocationObservation ;
+	rdfs:label "Hulshorststr 80" ;
+	geo:geoWithin <http://bag.basisregistraties.overheid.nl/bag/id/pand/0518100000322199> ;
+	roar:hasPerson [
+		rdf:value :po33 ;
+		sem:hasLatestBeginTimeStamp "1934-06-20"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:hasPerson [
+		rdf:value :po32 ;
+		sem:hasLatestBeginTimeStamp "1934-06-20"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://hdl.handle.net/21.12124/BDD6F2CBCF5F49E7A718491558B9D40C> .
+
+:lo43 a roar:LocationObservation ;
+	rdfs:label "Hulshorststraat 80" ;
+	geo:geoWithin <http://bag.basisregistraties.overheid.nl/bag/id/pand/0518100000322199> ;
+	roar:hasPerson [
+		rdf:value :po34 ;
+		sem:hasEarliestEndTimeStamp "1953-07-15"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://resolver.kb.nl/resolve?urn=MMKB19:000832064:mpeg21:a00090> .
+
+:lo44 a roar:LocationObservation ;
+	rdfs:label "Bruinisse" ;
+	geo:geoWithin <http://www.wikidata.org/entity/Q992371> ;
+	roar:hasPerson [
+		rdf:value :po35 ;
+		sem:hasEarliestEndTimeStamp "1906-03-30"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://www.wiewaswie.nl/nl/detail/106888334> .
+
+:lo45 a roar:LocationObservation ;
+	rdfs:label "Van der Duynstraat 57" ;
+	geo:geoWithin <http://www.wikidata.org/entity/Q19619596> ;
+	roar:hasPerson [
+		rdf:value :po35 ;
+		sem:hasLatestBeginTimeStamp "1906-03-30"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1915-02-15"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://www.wiewaswie.nl/nl/detail/106888334> .
+
+:lo46 a roar:LocationObservation ;
+	rdfs:label "Gortmolen 17-8, 17-48, 17-i" ;
+	geo:geoWithin <http://www.wikidata.org/entity/Q19201260> ;
+	roar:hasPerson [
+		rdf:value :po35 ;
+		sem:hasLatestBeginTimeStamp "1915-02-15"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1930-01-31"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://www.wiewaswie.nl/nl/detail/106888334> .
+
+:lo47 a roar:LocationObservation ;
+	rdfs:label "Hulshorststraat 80" ;
+	geo:geoWithin <http://bag.basisregistraties.overheid.nl/bag/id/pand/0518100000322199> ;
+	roar:hasPerson [
+		rdf:value :po35 ;
+		sem:hasLatestBeginTimeStamp "1934-06-20"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://www.wiewaswie.nl/nl/detail/106888334> .
+
+:lo48 a roar:LocationObservation ;
+	rdfs:label "Rembrandtstraat 308" ;
+	geo:geoWithin <http://www.wikidata.org/entity/Q19464738> ;
+	roar:hasPerson [
+		rdf:value :po35 ;
+		sem:hasLatestBeginTimeStamp "1930-01-31"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1934-06-20"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://www.wiewaswie.nl/nl/detail/106888334> .
+
+:lo49 a roar:LocationObservation ;
+	rdfs:label "Koningstraat 110/112" ;
+	geo:geoWithin <http://www.wikidata.org/entity/Q19307487> ;
+	roar:hasPerson [
+		rdf:value :po36 ;
+		sem:hasLatestBeginTimeStamp "1907-11-01"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1934-06-20"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://hdl.handle.net/21.12124/AAD6EE0B5D8F4FBA8FE93FECE03FBC47> .
+
+:lo50 a roar:LocationObservation ;
+	rdfs:label "ona v. Eeghenstr. 25" ;
+	geo:geoWithin <https://adamlink.nl/geo/address/A132107> ;
+	roar:hasPerson [
+		rdf:value :po37 ;
+		sem:hasLatestBeginTimeStamp "1907-07-10"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1909-12-30"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/763aef2e-478e-488c-8a44-160420b8f352> .
+
+:lo51 a roar:LocationObservation ;
+	rdfs:label "Gorinchem" ;
+	geo:geoWithin <http://www.wikidata.org/entity/Q33439227> ;
+	roar:hasPerson [
+		rdf:value :po37 ;
+		sem:hasEarliestEndTimeStamp "1907-07-10"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/763aef2e-478e-488c-8a44-160420b8f352> .
+
+:lo52 a roar:LocationObservation ;
+	rdfs:label "Blauwe Haansteeg B324" ;
+	geo:geoWithin <http://www.wikidata.org/entity/Q18956600> ;
+	roar:hasPerson [
+		rdf:value :po37 ;
+		sem:hasLatestBeginTimeStamp "1909-12-30"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/763aef2e-478e-488c-8a44-160420b8f352> .
+
+:lo53 a roar:LocationObservation ;
+	rdfs:label "Willemstad, Wijk B nr. 79" ;
+	geo:geoWithin <http://www.wikidata.org/entity/Q76937> ;
+	roar:hasPerson [
+		rdf:value :po38 ;
+		sem:hasLatestBeginTimeStamp "1931-05-08"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1933-03-31"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://www.openarch.nl/wba:ffb57474-3514-4424-8fc4-dfd32148c9ad> .
+
+:lo54 a roar:LocationObservation ;
+	rdfs:label "'s-Gravenhage" ;
+	geo:geoWithin <http://www.wikidata.org/entity/Q36600> ;
+	roar:hasPerson [
+		rdf:value :po38 ;
+		sem:hasLatestBeginTimeStamp "1933-03-31"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://www.openarch.nl/wba:ffb57474-3514-4424-8fc4-dfd32148c9ad> .
+
+:lo55 a roar:LocationObservation ;
+	rdfs:label "Heemskerckstraat 63" ;
+	geo:geoWithin <http://www.wikidata.org/entity/Q19202521> ;
+	roar:hasPerson [
+		rdf:value :po40 ;
+		sem:hasLatestBeginTimeStamp "1933-09-27"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1934-12-10"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://hdl.handle.net/21.12124/1422EABFB75340AA863E29ADB2EAFD7F> .
+
+:lo56 a roar:LocationObservation ;
+	rdfs:label "Notenplein 15" ;
+	geo:geoWithin <http://bag.basisregistraties.overheid.nl/bag/id/pand/0518100000314701> ;
+	roar:hasPerson [
+		rdf:value :po40 ;
+		sem:hasLatestBeginTimeStamp "1934-12-10"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://hdl.handle.net/21.12124/1422EABFB75340AA863E29ADB2EAFD7F> .
+
+:lo57 a roar:LocationObservation ;
+	rdfs:label "Emmastraat 90 c" ;
+	geo:geoWithin <http://www.wikidata.org/entity/Q19117628> ;
+	roar:hasPerson [
+		rdf:value :po41 ;
+		sem:hasLatestBeginTimeStamp "1936-12-09"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://hdl.handle.net/21.12124/80011712D551414EA6A64CE9550D199E> .
+
+:lo58 a roar:LocationObservation ;
+	rdfs:label "Notenplein 15" ;
+	geo:geoWithin <http://bag.basisregistraties.overheid.nl/bag/id/pand/0518100000314701> ;
+	roar:hasPerson [
+		rdf:value :po41 ;
+		sem:hasLatestBeginTimeStamp "1934-12-10"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1936-12-09"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://hdl.handle.net/21.12124/80011712D551414EA6A64CE9550D199E> .
+
+:lo59 a roar:LocationObservation ;
+	rdfs:label "Willemstad" ;
+	geo:geoWithin <http://www.wikidata.org/entity/Q76937> ;
+	roar:hasPerson [
+		rdf:value :po41 ;
+		sem:hasEarliestEndTimeStamp "1933-09-27"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://hdl.handle.net/21.12124/80011712D551414EA6A64CE9550D199E> .
+
+:lo60 a roar:LocationObservation ;
+	rdfs:label "Tintoretttostraat 37 I" ;
+	geo:geoWithin <https://adamlink.nl/geo/address/A173631> ;
+	roar:hasPerson [
+		rdf:value :po10 ;
+		sem:hasLatestBeginTimeStamp "1940-04-04"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1941-08-28"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/98533411-c65e-56a3-e053-b784100ade19> .
+
+:lo61 a roar:LocationObservation ;
+	rdfs:label "Tintoretttostraat 37 I" ;
+	geo:geoWithin <https://adamlink.nl/geo/address/A173631> ;
+	roar:hasPerson [
+		rdf:value :po43 ;
+		sem:hasLatestBeginTimeStamp "1940-04-04"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1943-08-07"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/fda1e74b-a2e0-483c-9bd5-403d813f4965> .
+
+:lo62 a roar:LocationObservation ;
+	rdfs:label "Dl" ;
+	geo:geoWithin <http://www.wikidata.org/entity/Q183> ;
+	roar:hasPerson [
+		rdf:value :po43 ;
+		sem:hasLatestBeginTimeStamp "1943-08-07"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/fda1e74b-a2e0-483c-9bd5-403d813f4965> .
+
+:lo63 a roar:LocationObservation ;
+	rdfs:label "DL" ;
+	geo:geoWithin <http://www.wikidata.org/entity/Q183> ;
+	roar:hasPerson [
+		rdf:value :po10 ;
+		sem:hasLatestBeginTimeStamp "1943-08-07"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/98533411-c65e-56a3-e053-b784100ade19> .
+
+:lo64 a roar:LocationObservation ;
+	rdfs:label "C 350" ;
+	geo:geoWithin <https://adamlink.nl/geo/address/A89095> ;
+	roar:hasPerson [
+		rdf:value :po44 ;
+		sem:hasLatestBeginTimeStamp "1861-01-20"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1861-04-29"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/18a98f9e-ce0f-48c1-8173-b3db15c56226> .
+
+:lo65 a roar:LocationObservation ;
+	rdfs:label "P 23" ;
+	geo:geoWithin <https://adamlink.nl/geo/address/A103140> ;
+	roar:hasPerson [
+		rdf:value :po44 ;
+		sem:hasLatestBeginTimeStamp "1861-04-29"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/18a98f9e-ce0f-48c1-8173-b3db15c56226> .
+
+:lo66 a roar:LocationObservation ;
+	rdfs:label "C 350" ;
+	geo:geoWithin <https://adamlink.nl/geo/address/A89095> ;
+	roar:hasPerson [
+		rdf:value :po45 ;
+		sem:hasEarliestEndTimeStamp "1861-05-00"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/3b1d7857-2b08-40f1-9bc1-8ab9e794a3ab> .
+
+:lo67 a roar:LocationObservation ;
+	rdfs:label "P 23" ;
+	geo:geoWithin <https://adamlink.nl/geo/address/A103140> ;
+	roar:hasPerson [
+		rdf:value :po45 ;
+		sem:hasLatestBeginTimeStamp "1861-05-00"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/3b1d7857-2b08-40f1-9bc1-8ab9e794a3ab> .
+
+:lo68 a roar:LocationObservation ;
+	rdfs:label "Nieuwe Heerengracht 35" ;
+	geo:geoWithin <https://adamlink.nl/geo/address/A103139> ;
+	roar:hasPerson [
+		rdf:value :po46 ;
+		sem:hasEarliestEndTimeStamp "1877-05-00"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/c9bcbfa9-7473-4ad2-9475-db986d8d3707> .
+
+:lo69 a roar:LocationObservation ;
+	rdfs:label "Nieuwe Heerengracht 145" ;
+	geo:geoWithin <https://adamlink.nl/geo/address/A116711> ;
+	roar:hasPerson [
+		rdf:value :po47 ;
+		sem:hasEarliestEndTimeStamp "1891-05-00"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/0798cd40-7552-4bd1-885f-47b63f9a5590> .
+
+:lo70 a roar:LocationObservation ;
+	rdfs:label "Nieuwe Heerengracht 145" ;
+	geo:geoWithin <https://adamlink.nl/geo/address/A116711> ;
+	roar:hasPerson [
+		rdf:value :po48 ;
+		sem:hasEarliestEndTimeStamp "1891-05-00"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/2ebd6bf1-42ba-4d65-a763-6e3fbac62bb4> .
+
+:lo71 a roar:LocationObservation ;
+	rdfs:label "Amstel (binnen) 15" ;
+	geo:geoWithin <https://adamlink.nl/geo/address/A89705> ;
+	roar:hasPerson [
+		rdf:value :po48 ;
+		sem:hasLatestBeginTimeStamp "1891-05-00"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/2ebd6bf1-42ba-4d65-a763-6e3fbac62bb4> .
+
+:lo72 a roar:LocationObservation ;
+	rdfs:label "Johs Verhulststr 169 bov" ;
+	geo:geoWithin <https://adamlink.nl/geo/address/A221388> ;
+	roar:hasPerson [
+		rdf:value :po49 ;
+		sem:hasEarliestEndTimeStamp "1925-06-08"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/bace9751-abda-4f08-b504-1b2227017211> .
+
+:lo73 a roar:LocationObservation ;
+	rdfs:label "Reynier Vinkeleskade 66 huis" ;
+	geo:geoWithin <https://adamlink.nl/geo/address/A221755> ;
+	roar:hasPerson [
+		rdf:value :po49 ;
+		sem:hasLatestBeginTimeStamp "1925-06-08"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1933-11-04"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/bace9751-abda-4f08-b504-1b2227017211> .
+
+:lo74 a roar:LocationObservation ;
+	rdfs:label "Zirl" ;
+	geo:geoWithin <http://www.wikidata.org/entity/Q206000> ;
+	roar:hasPerson [
+		rdf:value :po50 ;
+		sem:hasEarliestEndTimeStamp "1934-05-24"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:hasPerson [
+		rdf:value :po50 ;
+		sem:hasLatestBeginTimeStamp "1937-03-30"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/9853343e-3e0e-56a3-e053-b784100ade19> .
+
+:lo75 a roar:LocationObservation ;
+	rdfs:label "Albr. Dürerstr. 43" ;
+	geo:geoWithin <https://adamlink.nl/geo/address/A173060> ;
+	roar:hasPerson [
+		rdf:value :po50 ;
+		sem:hasLatestBeginTimeStamp "1934-05-24"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1935-05-28"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/9853343e-3e0e-56a3-e053-b784100ade19> .
+
+:lo76 a roar:LocationObservation ;
+	rdfs:label "Schubertstr. 70" ;
+	geo:geoWithin <https://adamlink.nl/geo/address/A173908> ;
+	roar:hasPerson [
+		rdf:value :po50 ;
+		sem:hasLatestBeginTimeStamp "1935-05-28"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/9853343e-3e0e-56a3-e053-b784100ade19> .
+
+:lo78 a roar:LocationObservation ;
+	rdfs:label "Mallestig" ;
+	geo:geoWithin <http://sws.geonames.org/2772043/> ;
+	roar:hasPerson [
+		rdf:value :po50 ;
+		sem:hasEarliestEndTimeStamp "1937-12-17"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/9853343e-3e0e-56a3-e053-b784100ade19> .
+
+:lo79 a roar:LocationObservation ;
+	rdfs:label "Murillostr 8 bv" ;
+	geo:geoWithin <https://adamlink.nl/geo/address/A173272> ;
+	roar:hasPerson [
+		rdf:value :po51 ;
+		sem:hasLatestBeginTimeStamp "1938-03-08"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1939-12-04"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/9853341a-3a55-56a3-e053-b784100ade19> .
+
+:lo80 a roar:LocationObservation ;
+	rdfs:label "Minervalaan 80 I" ;
+	geo:geoWithin <https://adamlink.nl/geo/address/A173990> ;
+	roar:hasPerson [
+		rdf:value :po51 ;
+		sem:hasLatestBeginTimeStamp "1937-12-17"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1938-03-08"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/9853341a-3a55-56a3-e053-b784100ade19> .
+
+:lo81 a roar:LocationObservation ;
+	rdfs:label "Maleestig DL" ;
+	geo:geoWithin <http://sws.geonames.org/2772043/> ;
+	roar:hasPerson [
+		rdf:value :po51 ;
+		sem:hasEarliestEndTimeStamp "1937-12-17"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/9853341a-3a55-56a3-e053-b784100ade19> .
+
+:lo82 a roar:LocationObservation ;
+	rdfs:label "Zirl DL Kirchstr. 95" ;
+	geo:geoWithin <http://www.wikidata.org/entity/Q206000> ;
+	roar:hasPerson [
+		rdf:value :po51 ;
+		sem:hasLatestBeginTimeStamp "1937-03-30"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:hasPerson [
+		rdf:value :po51 ;
+		sem:hasEarliestEndTimeStamp "1934-05-24"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/9853341a-3a55-56a3-e053-b784100ade19> .
+
+:lo83 a roar:LocationObservation ;
+	rdfs:label "vBaerlestr 16" ;
+	geo:geoWithin <https://adamlink.nl/geo/address/A131846> ;
+	roar:hasPerson [
+		rdf:value :po51 ;
+		sem:hasEarliestEndTimeStamp "1937-03-30"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/9853341a-3a55-56a3-e053-b784100ade19> .
+
+:lo85 a roar:LocationObservation ;
+	rdfs:label "Albrecht Dürerstraat 43 huis" ;
+	geo:geoWithin <https://adamlink.nl/geo/address/A173060> ;
+	roar:hasPerson [
+		rdf:value :po52 ;
+		sem:hasLatestBeginTimeStamp "1934-05-24"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1935-05-28"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/354de3a2-c908-4c5e-876b-8537e0326edd> .
+
+:lo86 a roar:LocationObservation ;
+	rdfs:label "Zirl bij Innsbruck" ;
+	geo:geoWithin <http://www.wikidata.org/entity/Q206000> ;
+	roar:hasPerson [
+		rdf:value :po52 ;
+		sem:hasEarliestEndTimeStamp "1934-05-24"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/354de3a2-c908-4c5e-876b-8537e0326edd> .
+
+:lo87 a roar:LocationObservation ;
+	rdfs:label "Schubertstraat 70 hs" ;
+	geo:geoWithin <https://adamlink.nl/geo/address/A173908> ;
+	roar:hasPerson [
+		rdf:value :po52 ;
+		sem:hasLatestBeginTimeStamp "1935-05-28"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/354de3a2-c908-4c5e-876b-8537e0326edd> .
+
+:lo88 a roar:LocationObservation ;
+	rdfs:label "v. Baerlestr. 16 II" ;
+	geo:geoWithin <https://adamlink.nl/geo/address/A131846> ;
+	roar:hasPerson [
+		rdf:value :po53 ;
+		sem:hasLatestBeginTimeStamp "1937-02-15"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/e450cda3-c8ec-4b0a-8815-715cc82ea61a> .
+
+:lo89 a roar:LocationObservation ;
+	rdfs:label "A. Dürerstr. 43 hs" ;
+	geo:geoWithin <https://adamlink.nl/geo/address/A173060> ;
+	roar:hasPerson [
+		rdf:value :po53 ;
+		sem:hasEarliestEndTimeStamp "1935-05-28"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/e450cda3-c8ec-4b0a-8815-715cc82ea61a> .
+
+:lo90 a roar:LocationObservation ;
+	rdfs:label "Schubertstraat 70 huis" ;
+	geo:geoWithin <https://adamlink.nl/geo/address/A173908> ;
+	roar:hasPerson [
+		rdf:value :po53 ;
+		sem:hasLatestBeginTimeStamp "1935-05-28"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1937-02-15"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/e450cda3-c8ec-4b0a-8815-715cc82ea61a> .
+
+:lo91 a roar:LocationObservation ;
+	rdfs:label "Murillostr 8 bv" ;
+	geo:geoWithin <https://adamlink.nl/geo/address/A173272> ;
+	roar:hasPerson [
+		rdf:value :po54 ;
+		sem:hasLatestBeginTimeStamp "1938-03-08"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/68fb7053-edf7-40d2-9bb1-746a19cf36eb> .
+
+:lo92 a roar:LocationObservation ;
+	rdfs:label "Mallestig (Oost.)" ;
+	geo:geoWithin <http://sws.geonames.org/2772043/> ;
+	roar:hasPerson [
+		rdf:value :po54 ;
+		sem:hasEarliestEndTimeStamp "1937-12-17"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/68fb7053-edf7-40d2-9bb1-746a19cf36eb> .
+
+:lo93 a roar:LocationObservation ;
+	rdfs:label "Minervalaan 80" ;
+	geo:geoWithin <https://adamlink.nl/geo/address/A173990> ;
+	roar:hasPerson [
+		rdf:value :po54 ;
+		sem:hasLatestBeginTimeStamp "1937-12-17"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1938-03-08"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/68fb7053-edf7-40d2-9bb1-746a19cf36eb> .
+
+:lo94 a roar:LocationObservation ;
+	rdfs:label "Murillostraat 8 bovenhuis" ;
+	geo:geoWithin <https://adamlink.nl/geo/address/A173272> ;
+	roar:hasPerson [
+		rdf:value :po55 ;
+		sem:hasLatestBeginTimeStamp "1938-03-08"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1939-12-04"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/42ef57a0-7d3c-46e1-97f5-fd35d8095803> .
+
+:lo95 a roar:LocationObservation ;
+	rdfs:label "Minervalaan 80 I" ;
+	geo:geoWithin <https://adamlink.nl/geo/address/A173990> ;
+	roar:hasPerson [
+		rdf:value :po55 ;
+		sem:hasEarliestEndTimeStamp "1938-03-08"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/42ef57a0-7d3c-46e1-97f5-fd35d8095803> .
+
+:lo96 a roar:LocationObservation ;
+	rdfs:label "Goritschach" ;
+	geo:geoWithin <https://www.geonames.org/2778326/> ;
+	roar:hasPerson [
+		rdf:value :po56 ;
+		sem:hasLatestBeginTimeStamp "1939-02-02"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:hasPerson [
+		rdf:value :po56 ;
+		sem:hasEarliestEndTimeStamp "1936-06-05"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/9853344d-1f52-56a3-e053-b784100ade19> .
+
+:lo97 a roar:LocationObservation ;
+	rdfs:label "Scheldestraat 17 I" ;
+	geo:geoWithin <https://adamlink.nl/geo/address/A176904> ;
+	roar:hasPerson [
+		rdf:value :po56 ;
+		sem:hasLatestBeginTimeStamp "1936-09-16"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/9853344d-1f52-56a3-e053-b784100ade19> .
+
+:lo98 a roar:LocationObservation ;
+	rdfs:label "Rubensstraat 36 hs" ;
+	geo:geoWithin <https://adamlink.nl/geo/address/A173178> ;
+	roar:hasPerson [
+		rdf:value :po56 ;
+		sem:hasLatestBeginTimeStamp "1936-06-05"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/9853344d-1f52-56a3-e053-b784100ade19> .
+
+:lo100 a roar:LocationObservation ;
+	rdfs:label "Scheldestr. 17 I" ;
+	geo:geoWithin <https://adamlink.nl/geo/address/A176904> ;
+	roar:hasPerson [
+		rdf:value :po57 ;
+		sem:hasLatestBeginTimeStamp "1936-09-16"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/2a631083-6c64-4c9d-93c5-125bc02be56a> .
+
+:lo101 a roar:LocationObservation ;
+	rdfs:label "Rubensstraat 36" ;
+	geo:geoWithin <https://adamlink.nl/geo/address/A173178> ;
+	roar:hasPerson [
+		rdf:value :po57 ;
+		sem:hasLatestBeginTimeStamp "1936-06-05"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1936-09-16"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/2a631083-6c64-4c9d-93c5-125bc02be56a> .
+
+:lo102 a roar:LocationObservation ;
+	rdfs:label "Goritschach" ;
+	geo:geoWithin <https://www.geonames.org/2778326/> ;
+	roar:hasPerson [
+		rdf:value :po57 ;
+		sem:hasEarliestEndTimeStamp "1936-06-05"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/2a631083-6c64-4c9d-93c5-125bc02be56a> .
+
+:lo103 a roar:LocationObservation ;
+	rdfs:label "Scheldestraat 17" ;
+	geo:geoWithin <https://adamlink.nl/geo/address/A176904> ;
+	roar:hasPerson [
+		rdf:value :po58 ;
+		sem:hasLatestBeginTimeStamp "1936-09-16"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/d5cd2ca8-57cb-4a16-b0ad-c5d00d80d2fa> .
+
+:lo104 a roar:LocationObservation ;
+	rdfs:label "Rubensstr. 36 hs" ;
+	geo:geoWithin <https://adamlink.nl/geo/address/A173178> ;
+	roar:hasPerson [
+		rdf:value :po58 ;
+		sem:hasEarliestEndTimeStamp "1936-09-16"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/d5cd2ca8-57cb-4a16-b0ad-c5d00d80d2fa> .
+
+:lo105 a roar:LocationObservation ;
+	rdfs:label "Nr. Amstell. 220 bov" ;
+	geo:geoWithin <https://adamlink.nl/geo/address/A176892> ;
+	roar:hasPerson [
+		rdf:value :po59 ;
+		sem:hasLatestBeginTimeStamp "1937-10-26"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/ec730cdf-abcb-4174-8525-c7f2a261b043> .
+
+:lo106 a roar:LocationObservation ;
+	rdfs:label "Scheldestraat 17 1 hoog" ;
+	geo:geoWithin <https://adamlink.nl/geo/address/A176904> ;
+	roar:hasPerson [
+		rdf:value :po59 ;
+		sem:hasEarliestEndTimeStamp "1937-10-26"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/ec730cdf-abcb-4174-8525-c7f2a261b043> .
+
+:lo107 a roar:LocationObservation ;
+	rdfs:label "Goritschach" ;
+	geo:geoWithin <https://www.geonames.org/2778326/> ;
+	roar:hasPerson [
+		rdf:value :po60 ;
+		sem:hasLatestBeginTimeStamp "1939-02-02"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/6fecf056-0354-4b9d-9992-7e1563e44a84> .
+
+:lo108 a roar:LocationObservation ;
+	rdfs:label "Scheldestr. 17 I" ;
+	geo:geoWithin <https://adamlink.nl/geo/address/A176904> ;
+	roar:hasPerson [
+		rdf:value :po60 ;
+		sem:hasEarliestEndTimeStamp "1937-10-26"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/6fecf056-0354-4b9d-9992-7e1563e44a84> .
+
+:lo109 a roar:LocationObservation ;
+	rdfs:label "Churchill-laan 220 huis" ;
+	geo:geoWithin <https://adamlink.nl/geo/address/A176892> ;
+	roar:hasPerson [
+		rdf:value :po60 ;
+		sem:hasLatestBeginTimeStamp "1937-10-26"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1939-02-02"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/6fecf056-0354-4b9d-9992-7e1563e44a84> .
+
+:lo110 a roar:LocationObservation ;
+	rdfs:label "Mallestig" ;
+	geo:geoWithin <http://sws.geonames.org/2772043/> ;
+	roar:hasPerson [
+		rdf:value :po61 ;
+		sem:hasEarliestEndTimeStamp "1934-03-06"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:hasPerson [
+		rdf:value :po61 ;
+		sem:hasLatestBeginTimeStamp "1938-04-15"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/98533440-1a30-56a3-e053-b784100ade19> .
+
+:lo111 a roar:LocationObservation ;
+	rdfs:label "Parnassusweg 24 II" ;
+	geo:geoWithin <https://adamlink.nl/geo/address/A174239> ;
+	roar:hasPerson [
+		rdf:value :po61 ;
+		sem:hasLatestBeginTimeStamp "1934-03-06"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1934-06-29"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/98533440-1a30-56a3-e053-b784100ade19> .
+
+:lo112 a roar:LocationObservation ;
+	rdfs:label "Tesselschadestr 22" ;
+	geo:geoWithin <https://adamlink.nl/geo/address/A137072> ;
+	roar:hasPerson [
+		rdf:value :po61 ;
+		sem:hasLatestBeginTimeStamp "1934-06-29"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/98533440-1a30-56a3-e053-b784100ade19> .
+
+:lo114 a roar:LocationObservation ;
+	rdfs:label "Tesselschadestr 22 hs" ;
+	geo:geoWithin <https://adamlink.nl/geo/address/A137072> ;
+	roar:hasPerson [
+		rdf:value :po62 ;
+		sem:hasLatestBeginTimeStamp "1934-06-29"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/7585d55c-1352-438f-8435-2b6c7067c922> .
+
+:lo115 a roar:LocationObservation ;
+	rdfs:label "Parnassusweg 24 III" ;
+	geo:geoWithin <https://adamlink.nl/geo/address/A174239> ;
+	roar:hasPerson [
+		rdf:value :po62 ;
+		sem:hasLatestBeginTimeStamp "1934-03-06"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1934-06-29"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/7585d55c-1352-438f-8435-2b6c7067c922> .
+
+:lo116 a roar:LocationObservation ;
+	rdfs:label "Mallestig (Kärnten)" ;
+	geo:geoWithin <http://sws.geonames.org/2772043/> ;
+	roar:hasPerson [
+		rdf:value :po62 ;
+		sem:hasEarliestEndTimeStamp "1934-03-06"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/7585d55c-1352-438f-8435-2b6c7067c922> .
+
+:lo117 a roar:LocationObservation ;
+	rdfs:label "Malestig" ;
+	geo:geoWithin <http://sws.geonames.org/2772043/> ;
+	roar:hasPerson [
+		rdf:value :po63 ;
+		sem:hasLatestBeginTimeStamp "1938-04-15"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/1b88d5db-3c4e-431f-ad8c-cdb04ff0eaf1> .
+
+:lo118 a roar:LocationObservation ;
+	rdfs:label "Tesselschadestraat 22 huis" ;
+	geo:geoWithin <https://adamlink.nl/geo/address/A137072> ;
+	roar:hasPerson [
+		rdf:value :po63 ;
+		sem:hasLatestBeginTimeStamp "1934-06-29"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1938-04-15"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/1b88d5db-3c4e-431f-ad8c-cdb04ff0eaf1> .
+
+:lo119 a roar:LocationObservation ;
+	rdfs:label "Parnassusweg 24 III" ;
+	geo:geoWithin <https://adamlink.nl/geo/address/A174239> ;
+	roar:hasPerson [
+		rdf:value :po63 ;
+		sem:hasEarliestEndTimeStamp "1934-06-29"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/1b88d5db-3c4e-431f-ad8c-cdb04ff0eaf1> .
+
+:lo120 a roar:LocationObservation ;
+	rdfs:label "Graft de Rijp" ;
+	geo:geoWithin <http://www.wikidata.org/entity/Q9919> ;
+	roar:hasPerson [
+		rdf:value :po64 ;
+		sem:hasLatestBeginTimeStamp "1971-12-31"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/5f007e7f-e946-4a16-baef-d2a40aaabcfe> .
+
+:lo121 a roar:LocationObservation ;
+	rdfs:label "Willem van Weldammelaan 14 gelegen op 2e woonlaag" ;
+	geo:geoWithin <http://bag.basisregistraties.overheid.nl/bag/id/pand/0363100012081771> ;
+	roar:hasPerson [
+		rdf:value :po64 ;
+		sem:hasEarliestEndTimeStamp "1971-12-31"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/5f007e7f-e946-4a16-baef-d2a40aaabcfe> .
+
+:lo122 a roar:LocationObservation ;
+	rdfs:label "Oostenrijk" ;
+	geo:geoWithin <http://www.wikidata.org/entity/Q40> ;
+	roar:hasPerson [
+		rdf:value :po65 ;
+		sem:hasLatestBeginTimeStamp "1936-10-08"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/9853344d-36a4-56a3-e053-b784100ade19> .
+
+:lo123 a roar:LocationObservation ;
+	rdfs:label "Ciostraat 20 II" ;
+	geo:geoWithin <https://adamlink.nl/geo/address/A173105> ;
+	roar:hasPerson [
+		rdf:value :po65 ;
+		sem:hasLatestBeginTimeStamp "1933-09-02"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/9853344d-36a4-56a3-e053-b784100ade19> .
+
+:lo124 a roar:LocationObservation ;
+	rdfs:label "Mallestig" ;
+	geo:geoWithin <http://sws.geonames.org/2772043/> ;
+	roar:hasPerson [
+		rdf:value :po65 ;
+		sem:hasEarliestEndTimeStamp "1933-09-02"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/9853344d-36a4-56a3-e053-b784100ade19> .
+
+:lo125 a roar:LocationObservation ;
+	rdfs:label "Cliostraat 20 bhs" ;
+	geo:geoWithin <https://adamlink.nl/geo/address/A173105> ;
+	roar:hasPerson [
+		rdf:value :po66 ;
+		sem:hasLatestBeginTimeStamp "1931-10-12"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/9853344e-8fdc-56a3-e053-b784100ade19> .
+
+:lo126 a roar:LocationObservation ;
+	rdfs:label "Salzburg" ;
+	geo:geoWithin <http://www.wikidata.org/entity/Q34713> ;
+	roar:hasPerson [
+		rdf:value :po66 ;
+		sem:hasEarliestEndTimeStamp "1931-10-12"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/9853344e-8fdc-56a3-e053-b784100ade19> .
+
+:lo127 a roar:LocationObservation ;
+	rdfs:label "Oostenrijk" ;
+	geo:geoWithin <http://www.wikidata.org/entity/Q40> ;
+	roar:hasPerson [
+		rdf:value :po67 ;
+		sem:hasLatestBeginTimeStamp "1936-10-08"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/75153b97-ae27-406a-a284-6d9f849a7948> .
+
+:lo128 a roar:LocationObservation ;
+	rdfs:label "Cliostraat 20  II" ;
+	geo:geoWithin <https://adamlink.nl/geo/address/A173105> ;
+	roar:hasPerson [
+		rdf:value :po67 ;
+		sem:hasLatestBeginTimeStamp "1933-09-02"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1936-10-08"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:hasPerson [
+		rdf:value :po68 ;
+		sem:hasLatestBeginTimeStamp "1931-10-12"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1939-10-31"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/75153b97-ae27-406a-a284-6d9f849a7948> .
+
+:lo129 a roar:LocationObservation ;
+	rdfs:label "Mallestig" ;
+	geo:geoWithin <http://sws.geonames.org/2772043/> ;
+	roar:hasPerson [
+		rdf:value :po67 ;
+		sem:hasEarliestEndTimeStamp "1933-09-02"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/75153b97-ae27-406a-a284-6d9f849a7948> .
+
+:lo130 a roar:LocationObservation ;
+	rdfs:label "Waalstr. 37 II" ;
+	geo:geoWithin <https://adamlink.nl/geo/address/A178387> ;
+	roar:hasPerson [
+		rdf:value :po68 ;
+		sem:hasLatestBeginTimeStamp "1939-10-31"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/75153b97-ae27-406a-a284-6d9f849a7948> .
+
+:lo132 a roar:LocationObservation ;
+	rdfs:label "Salzburg" ;
+	geo:geoWithin <http://www.wikidata.org/entity/Q34713> ;
+	roar:hasPerson [
+		rdf:value :po68 ;
+		sem:hasEarliestEndTimeStamp "1931-10-12"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/75153b97-ae27-406a-a284-6d9f849a7948> .
+
+:lo133 a roar:LocationObservation ;
+	rdfs:label "Waalstraat 37 II" ;
+	geo:geoWithin <https://adamlink.nl/geo/address/A178387> ;
+	roar:hasPerson [
+		rdf:value :po70 ;
+		sem:hasLatestBeginTimeStamp "1939-10-31"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/6e04820a-4168-4fd1-8efc-edf2532e6cab> .
+
+:lo134 a roar:LocationObservation ;
+	rdfs:label "Cliostraat 20 II" ;
+	geo:geoWithin <https://adamlink.nl/geo/address/A173105> ;
+	roar:hasPerson [
+		rdf:value :po70 ;
+		sem:hasEarliestEndTimeStamp "1939-10-31"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/6e04820a-4168-4fd1-8efc-edf2532e6cab> .
+
+:lo135 a roar:LocationObservation ;
+	rdfs:label "Westerbork Lager" ;
+	geo:geoWithin <http://www.wikidata.org/entity/Q323420> ;
+	roar:hasPerson [
+		rdf:value :po71 ;
+		sem:hasLatestBeginTimeStamp "1943-11-01"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/98533421-6eca-56a3-e053-b784100ade19> .
+
+:lo136 a roar:LocationObservation ;
+	rdfs:label "Scheldestr. 17 I" ;
+	geo:geoWithin <https://adamlink.nl/geo/address/A176904> ;
+	roar:hasPerson [
+		rdf:value :po71 ;
+		sem:hasEarliestEndTimeStamp "1943-11-01"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://archief.amsterdam/indexen/deeds/98533421-6eca-56a3-e053-b784100ade19> .
+
+:lo138 a roar:LocationObservation ;
+	rdfs:label "B.B." ;
+	geo:geoWithin <http://www.wikidata.org/entity/Q7332> ;
+	roar:hasPerson [
+		rdf:value :po72 ;
+		sem:hasEarliestEndTimeStamp "1945-01-20"^^xsd:date ;
+		roar:role "residence" 
+	] ;
+	roar:documentedIn <https://collections.arolsen-archives.org/de/document/130285421> .
+

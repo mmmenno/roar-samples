@@ -10,6 +10,7 @@
 @prefix xsd:		<http://www.w3.org/2001/XMLSchema#> .
 @prefix geo: 		<http://www.opengis.net/ont/geosparql#> .
 @prefix pnv:		<https://w3id.org/pnv#> .
+@prefix owl:		<http://www.w3.org/2002/07/owl#> .
 
 
 :pr1 a roar:PersonReconstruction ;
@@ -32,7 +33,7 @@
 		geo:geoWithin <https://www.geonames.org/2778326/> ;
 		schema:position "1"^^xsd:integer ;
 		sem:hasEarliestEndTimeStamp "1933-12-07"^^xsd:date ;
-		roar:role "residence" 
+		roar:role "resident" 
 	] ;
 	roar:hasLocation [
 		a roar:Location ;
@@ -41,7 +42,7 @@
 		schema:position "2"^^xsd:integer ;
 		sem:hasLatestBeginTimeStamp "1933-12-07"^^xsd:date ;
 		sem:hasEarliestEndTimeStamp "1935-05-06"^^xsd:date ;
-		roar:role "residence" 
+		roar:role "resident" 
 	] ;
 	roar:hasLocation [
 		a roar:Location ;
@@ -50,7 +51,7 @@
 		schema:position "3"^^xsd:integer ;
 		sem:hasLatestBeginTimeStamp "1935-05-06"^^xsd:date ;
 		sem:hasEarliestEndTimeStamp "1938-01-13"^^xsd:date ;
-		roar:role "residence" 
+		roar:role "resident" 
 	] ;
 	roar:hasLocation [
 		a roar:Location ;
@@ -59,7 +60,7 @@
 		schema:position "4"^^xsd:integer ;
 		sem:hasLatestBeginTimeStamp "1938-01-13"^^xsd:date ;
 		sem:hasEarliestEndTimeStamp "1938-03-08"^^xsd:date ;
-		roar:role "residence" 
+		roar:role "resident" 
 	] ;
 	roar:hasLocation [
 		a roar:Location ;
@@ -67,7 +68,7 @@
 		geo:geoWithin <https://adamlink.nl/geo/address/A173989> ;
 		schema:position "5"^^xsd:integer ;
 		sem:hasLatestBeginTimeStamp "1938-03-08"^^xsd:date ;
-		roar:role "residence" 
+		roar:role "resident" 
 	] ;
 	roar:hasLocation [
 		a roar:Location ;
@@ -76,7 +77,7 @@
 		schema:position "6"^^xsd:integer ;
 		sem:hasLatestBeginTimeStamp "1939-06-12"^^xsd:date ;
 		sem:hasEarliestEndTimeStamp "1941-03-06"^^xsd:date ;
-		roar:role "residence" 
+		roar:role "resident" 
 	] ;
 	roar:hasLocation [
 		a roar:Location ;
@@ -84,17 +85,17 @@
 		geo:geoWithin <http://bag.basisregistraties.overheid.nl/bag/id/pand/0518100000228459> ;
 		schema:position "7"^^xsd:integer ;
 		sem:hasLatestBeginTimeStamp "1941-03-06"^^xsd:date ;
-		roar:role "residence" 
+		roar:role "resident" 
 	] ;
 	prov:wasDerivedFrom :po1, :po4, :po7, :po8, :po12, :lo1, :lo3, :lo5, :lo6, :lo10, :lo11, :lo15, :lo16, :lo17, :lo20, :lo21 .
 
 :pr2 a roar:PersonReconstruction ;
-	rdfs:label "Izaäk Lob" ;
+	rdfs:label "Izaak Lob" ;
 	pnv:hasName [ 
 		a pnv:PersonName ;
-		pnv:givenName "Izaäk" ;
+		pnv:givenName "Izaak" ;
 		pnv:baseSurname "Lob" ;
-		pnv:literalName "Izaäk Lob" ;
+		pnv:literalName "Izaak Lob" ;
 	] ;
 	bio:birth [
 		a bio:Birth ;
@@ -110,30 +111,97 @@
 	] ;
 	roar:hasLocation [
 		a roar:Location ;
+		rdfs:label "C 350" ;
+		geo:geoWithin <https://adamlink.nl/geo/address/A89095> ;
+		schema:position "1"^^xsd:integer ;
+		sem:hasLatestBeginTimeStamp "1861-01-20"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1861-05-00"^^xsd:date ;
+		roar:role "resident" 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "P 23" ;
+		geo:geoWithin <https://adamlink.nl/geo/address/A103140> ;
+		schema:position "2"^^xsd:integer ;
+		sem:hasLatestBeginTimeStamp "1861-04-29"^^xsd:date ;
+		roar:role "resident" 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Nieuwe Heerengracht 35" ;
+		geo:geoWithin <https://adamlink.nl/geo/address/A103139> ;
+		schema:position "3"^^xsd:integer ;
+		sem:hasEarliestEndTimeStamp "1877-05-00"^^xsd:date ;
+		roar:role "resident" 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Nieuwe Heerengracht 145" ;
+		geo:geoWithin <https://adamlink.nl/geo/address/A116711> ;
+		schema:position "4"^^xsd:integer ;
+		sem:hasEarliestEndTimeStamp "1891-05-00"^^xsd:date ;
+		roar:role "resident" 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Amstel (binnen) 15" ;
+		geo:geoWithin <https://adamlink.nl/geo/address/A89705> ;
+		schema:position "5"^^xsd:integer ;
+		sem:hasLatestBeginTimeStamp "1891-05-00"^^xsd:date ;
+		roar:role "resident" 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Johs Verhulststr 169 bov" ;
+		geo:geoWithin <https://adamlink.nl/geo/address/A221388> ;
+		schema:position "6"^^xsd:integer ;
+		sem:hasEarliestEndTimeStamp "1925-06-08"^^xsd:date ;
+		roar:role "resident" 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
 		rdfs:label "Reinier Vinkeleskade 66" ;
 		geo:geoWithin <https://adamlink.nl/geo/address/A221755> ;
-		schema:position "1"^^xsd:integer ;
+		schema:position "7"^^xsd:integer ;
+		sem:hasLatestBeginTimeStamp "1925-06-08"^^xsd:date ;
 		sem:hasEarliestEndTimeStamp "1933-11-04"^^xsd:date ;
-		roar:role "residence" 
+		roar:role "resident" 
 	] ;
 	roar:hasLocation [
 		a roar:Location ;
 		rdfs:label "Stadionkade 17-III" ;
 		geo:geoWithin <https://adamlink.nl/geo/address/A173947> ;
-		schema:position "2"^^xsd:integer ;
+		schema:position "8"^^xsd:integer ;
 		sem:hasLatestBeginTimeStamp "1933-11-04"^^xsd:date ;
 		sem:hasEarliestEndTimeStamp "1937-10-30"^^xsd:date ;
-		roar:role "residence" 
+		roar:role "resident" 
 	] ;
 	roar:hasLocation [
 		a roar:Location ;
 		rdfs:label "Nicolaas Maesstraat 122-hs" ;
 		geo:geoWithin <https://adamlink.nl/geo/address/A221704> ;
-		schema:position "3"^^xsd:integer ;
+		schema:position "9"^^xsd:integer ;
 		sem:hasLatestBeginTimeStamp "1937-10-30"^^xsd:date ;
-		roar:role "residence" 
+		roar:role "resident" 
 	] ;
-	prov:wasDerivedFrom :po3, :po5, :po10, :lo4, :lo7, :lo8, :lo9 .
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Tintoretttostraat 37 I" ;
+		geo:geoWithin <https://adamlink.nl/geo/address/A173631> ;
+		schema:position "10"^^xsd:integer ;
+		sem:hasLatestBeginTimeStamp "1940-04-04"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1943-08-07"^^xsd:date ;
+		roar:role "resident" 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Dl" ;
+		geo:geoWithin <http://www.wikidata.org/entity/Q183> ;
+		schema:position "11"^^xsd:integer ;
+		sem:hasLatestBeginTimeStamp "1943-08-07"^^xsd:date ;
+		roar:role "resident" 
+	] ;
+	prov:wasDerivedFrom :po3, :po5, :po10, :po43, :po44, :po45, :po46, :po47, :po48, :po49, :lo4, :lo7, :lo8, :lo9, :lo60, :lo61, :lo62, :lo63, :lo64, :lo65, :lo66, :lo67, :lo68, :lo69, :lo70, :lo71, :lo72, :lo73 .
 
 :pr3 a roar:PersonReconstruction ;
 	rdfs:label "Wilhelmus Geurdinus Kiewiet" ;
@@ -161,7 +229,7 @@
 		geo:geoWithin <https://adamlink.nl/geo/address/A196364> ;
 		schema:position "1"^^xsd:integer ;
 		sem:hasEarliestEndTimeStamp "1940-09-23"^^xsd:date ;
-		roar:role "residence" 
+		roar:role "resident" 
 	] ;
 	roar:hasLocation [
 		a roar:Location ;
@@ -169,7 +237,7 @@
 		geo:geoWithin <http://bag.basisregistraties.overheid.nl/bag/id/pand/0518100000235648> ;
 		schema:position "2"^^xsd:integer ;
 		sem:hasLatestBeginTimeStamp "1940-09-23"^^xsd:date ;
-		roar:role "residence" 
+		roar:role "resident" 
 	] ;
 	roar:hasLocation [
 		a roar:Location ;
@@ -177,7 +245,7 @@
 		geo:geoWithin <http://bag.basisregistraties.overheid.nl/bag/id/pand/0518100000228459> ;
 		schema:position "3"^^xsd:integer ;
 		sem:hasLatestBeginTimeStamp "1941-03-06"^^xsd:date ;
-		roar:role "residence" 
+		roar:role "resident" 
 	] ;
 	prov:wasDerivedFrom :po13, :po14, :po15, :lo22, :lo23, :lo24 .
 
@@ -195,21 +263,684 @@
 		bio:place <http://www.wikidata.org/entity/Q2181173> ;
 		bio:principal :pr4 
 	] ;
+	bio:death [
+		a bio:Death ;
+		sem:hasTimeStamp "1944-07-17"^^xsd:date ;
+		bio:principal :pr4 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Molenstraat N40" ;
+		geo:geoWithin <http://www.wikidata.org/entity/Q19348546> ;
+		schema:position "1"^^xsd:integer ;
+		sem:hasLatestBeginTimeStamp "1874-05-29"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1875-10-06"^^xsd:date ;
+		roar:role "resident" 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Schoonebeek No 51 KO" ;
+		geo:geoWithin <http://www.wikidata.org/entity/Q2006601> ;
+		schema:position "2"^^xsd:integer ;
+		sem:hasLatestBeginTimeStamp "1875-10-08"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1882-05-08"^^xsd:date ;
+		roar:role "resident" 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Zuidbroek Groningen" ;
+		geo:geoWithin <http://www.wikidata.org/entity/Q3025870> ;
+		schema:position "3"^^xsd:integer ;
+		sem:hasLatestBeginTimeStamp "1882-05-08"^^xsd:date ;
+		roar:role "resident" 
+	] ;
 	roar:hasLocation [
 		a roar:Location ;
 		rdfs:label "Spaarndammerstraat 46-huis" ;
 		geo:geoWithin <https://adamlink.nl/geo/address/A196364> ;
-		schema:position "1"^^xsd:integer ;
+		schema:position "4"^^xsd:integer ;
 		sem:hasEarliestEndTimeStamp "1941-03-03"^^xsd:date ;
-		roar:role "residence" 
+		roar:role "resident" 
 	] ;
 	roar:hasLocation [
 		a roar:Location ;
 		rdfs:label "Van Oldenbarneveldstraat 72-hs" ;
 		geo:geoWithin <https://adamlink.nl/geo/address/A164430> ;
-		schema:position "2"^^xsd:integer ;
+		schema:position "5"^^xsd:integer ;
 		sem:hasLatestBeginTimeStamp "1941-03-03"^^xsd:date ;
-		roar:role "residence" 
+		sem:hasEarliestEndTimeStamp "1944-07-17"^^xsd:date ;
+		roar:role "resident" 
 	] ;
-	prov:wasDerivedFrom :po16, :po17, :po18, :lo25, :lo26 .
+	prov:wasDerivedFrom :po16, :po17, :po18, :po20, :po21, :po22, :po23, :po24, :po25, :lo25, :lo26, :lo27, :lo28, :lo29, :lo30, :lo31, :lo32 .
+
+:pr5 a roar:PersonReconstruction ;
+	rdfs:label "Wilhelmina Geurdina Gerritsen" ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Wilhelmina Geurdina" ;
+		pnv:baseSurname "Gerritsen" ;
+		pnv:literalName "Wilhelmina Geurdina Gerritsen" ;
+	] ;
+	bio:birth [
+		a bio:Birth ;
+		sem:hasTimeStamp "1872-11-04"^^xsd:date ;
+		bio:place <http://www.wikidata.org/entity/Q15881216> ;
+		bio:principal :pr5 
+	] ;
+	bio:death [
+		a bio:Death ;
+		sem:hasTimeStamp "1947-03-30"^^xsd:date ;
+		bio:principal :pr5 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Van Oldenbarneveldtstraat 72 huis" ;
+		geo:geoWithin <https://adamlink.nl/geo/address/A164430> ;
+		schema:position "1"^^xsd:integer ;
+		sem:hasLatestBeginTimeStamp "1941-03-30"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1947-03-30"^^xsd:date ;
+		roar:role "resident" 
+	] ;
+	prov:wasDerivedFrom :po19, :po26, :lo33 .
+
+:pr6 a roar:PersonReconstruction ;
+	rdfs:label "Menno den Engelse" ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Menno" ;
+		pnv:surnamePrefix "den" ;
+		pnv:baseSurname "Engelse" ;
+		pnv:literalName "Menno den Engelse" ;
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Willem van Weldammelaan 14 gelegen op 2e woonlaag" ;
+		geo:geoWithin <http://bag.basisregistraties.overheid.nl/bag/id/pand/0363100012081771> ;
+		schema:position "1"^^xsd:integer ;
+		sem:hasEarliestEndTimeStamp "1971-12-31"^^xsd:date ;
+		roar:role "resident" 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Graft de Rijp" ;
+		geo:geoWithin <http://www.wikidata.org/entity/Q9919> ;
+		schema:position "2"^^xsd:integer ;
+		sem:hasLatestBeginTimeStamp "1971-12-31"^^xsd:date ;
+		roar:role "resident" 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Ferdinand Bolstraat 106 i hoog" ;
+		geo:geoWithin <http://bag.basisregistraties.overheid.nl/bag/id/pand/0363100012153320> ;
+		schema:position "3"^^xsd:integer ;
+		sem:hasLatestBeginTimeStamp "1984-09-20"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1986-04-02"^^xsd:date ;
+		roar:role "resident" 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Oude Zijds Achterburgwal 75 hs" ;
+		geo:geoWithin <https://adamlink.nl/geo/address/A18440> ;
+		schema:position "4"^^xsd:integer ;
+		sem:hasLatestBeginTimeStamp "1986-04-02"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1988-01-05"^^xsd:date ;
+		roar:role "resident" 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Delistraat 48 II" ;
+		geo:geoWithin <https://adamlink.nl/geo/address/A152712> ;
+		schema:position "5"^^xsd:integer ;
+		sem:hasLatestBeginTimeStamp "1988-01-05"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1989-02-13"^^xsd:date ;
+		roar:role "resident" 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Albert Luthulistraat 33 D" ;
+		geo:geoWithin <https://adamlink.nl/geo/address/A211626> ;
+		schema:position "6"^^xsd:integer ;
+		sem:hasLatestBeginTimeStamp "1989-02-13"^^xsd:date ;
+		roar:role "resident" 
+	] ;
+	prov:wasDerivedFrom :po27, :po28, :po29, :po30, :po64, :lo34, :lo35, :lo36, :lo37, :lo38, :lo39, :lo40, :lo120, :lo121 .
+
+:pr7 a roar:PersonReconstruction ;
+	rdfs:label "Janna Maria Goedegebuure" ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Janna Maria" ;
+		pnv:baseSurname "Goedegebuure" ;
+		pnv:literalName "Janna Maria Goedegebuure" ;
+	] ;
+	bio:birth [
+		a bio:Birth ;
+		sem:hasTimeStamp "1905-11-17"^^xsd:date ;
+		bio:place <http://www.wikidata.org/entity/Q992371> ;
+		bio:principal :pr7 
+	] ;
+	bio:death [
+		a bio:Death ;
+		sem:hasTimeStamp "1953-07-15"^^xsd:date ;
+		bio:place <http://www.wikidata.org/entity/Q36600> ;
+		bio:principal :pr7 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Bruinisse" ;
+		geo:geoWithin <http://www.wikidata.org/entity/Q992371> ;
+		schema:position "1"^^xsd:integer ;
+		sem:hasEarliestEndTimeStamp "1906-03-30"^^xsd:date ;
+		roar:role "resident" 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Van der Duynstraat 57" ;
+		geo:geoWithin <http://www.wikidata.org/entity/Q19619596> ;
+		schema:position "2"^^xsd:integer ;
+		sem:hasLatestBeginTimeStamp "1906-03-30"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1915-02-15"^^xsd:date ;
+		roar:role "resident" 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Gortmolen 17-8, 17-48, 17-i" ;
+		geo:geoWithin <http://www.wikidata.org/entity/Q19201260> ;
+		schema:position "3"^^xsd:integer ;
+		sem:hasLatestBeginTimeStamp "1915-02-15"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1930-01-31"^^xsd:date ;
+		roar:role "resident" 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Rembrandtstraat 308" ;
+		geo:geoWithin <http://www.wikidata.org/entity/Q19464738> ;
+		schema:position "4"^^xsd:integer ;
+		sem:hasLatestBeginTimeStamp "1930-01-31"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1934-06-20"^^xsd:date ;
+		roar:role "resident" 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Hulshorststr 80" ;
+		geo:geoWithin <http://bag.basisregistraties.overheid.nl/bag/id/pand/0518100000322199> ;
+		schema:position "5"^^xsd:integer ;
+		sem:hasLatestBeginTimeStamp "1934-06-20"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1953-07-15"^^xsd:date ;
+		roar:role "resident" 
+	] ;
+	prov:wasDerivedFrom :po31, :po32, :po34, :po35, :lo42, :lo43, :lo44, :lo45, :lo46, :lo47, :lo48 .
+
+:pr8 a roar:PersonReconstruction ;
+	rdfs:label "Cornelis Hoogteyling" ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Cornelis" ;
+		pnv:baseSurname "Hoogteyling" ;
+		pnv:literalName "Cornelis Hoogteyling" ;
+	] ;
+	bio:birth [
+		a bio:Birth ;
+		sem:hasTimeStamp "1907-11-01"^^xsd:date ;
+		bio:place <http://www.wikidata.org/entity/Q36600> ;
+		bio:principal :pr8 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Koningstraat 110/112" ;
+		geo:geoWithin <http://www.wikidata.org/entity/Q19307487> ;
+		schema:position "1"^^xsd:integer ;
+		sem:hasLatestBeginTimeStamp "1907-11-01"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1934-06-20"^^xsd:date ;
+		roar:role "resident" 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Hulshorststr 80" ;
+		geo:geoWithin <http://bag.basisregistraties.overheid.nl/bag/id/pand/0518100000322199> ;
+		schema:position "2"^^xsd:integer ;
+		sem:hasLatestBeginTimeStamp "1934-06-20"^^xsd:date ;
+		roar:role "resident" 
+	] ;
+	prov:wasDerivedFrom :po33, :po36, :lo41, :lo49 .
+
+:pr9 a roar:PersonReconstruction ;
+	rdfs:label "Hendrik den Engelse" ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Hendrik" ;
+		pnv:surnamePrefix "den" ;
+		pnv:baseSurname "Engelse" ;
+		pnv:literalName "Hendrik den Engelse" ;
+	] ;
+	bio:birth [
+		a bio:Birth ;
+		sem:hasTimeStamp "1911-07-04"^^xsd:date ;
+		bio:place <http://www.wikidata.org/entity/Q2483396> ;
+		bio:principal :pr9 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Willemstad, Wijk B nr. 79" ;
+		geo:geoWithin <http://www.wikidata.org/entity/Q76937> ;
+		schema:position "1"^^xsd:integer ;
+		sem:hasLatestBeginTimeStamp "1931-05-08"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1933-09-27"^^xsd:date ;
+		roar:role "resident" 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "'s-Gravenhage" ;
+		geo:geoWithin <http://www.wikidata.org/entity/Q36600> ;
+		schema:position "2"^^xsd:integer ;
+		sem:hasLatestBeginTimeStamp "1933-03-31"^^xsd:date ;
+		roar:role "resident" 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Heemskerckstraat 63" ;
+		geo:geoWithin <http://www.wikidata.org/entity/Q19202521> ;
+		schema:position "3"^^xsd:integer ;
+		sem:hasLatestBeginTimeStamp "1933-09-27"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1934-12-10"^^xsd:date ;
+		roar:role "resident" 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Notenplein 15" ;
+		geo:geoWithin <http://bag.basisregistraties.overheid.nl/bag/id/pand/0518100000314701> ;
+		schema:position "4"^^xsd:integer ;
+		sem:hasLatestBeginTimeStamp "1934-12-10"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1936-12-09"^^xsd:date ;
+		roar:role "resident" 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Emmastraat 90 c" ;
+		geo:geoWithin <http://www.wikidata.org/entity/Q19117628> ;
+		schema:position "5"^^xsd:integer ;
+		sem:hasLatestBeginTimeStamp "1936-12-09"^^xsd:date ;
+		roar:role "resident" 
+	] ;
+	prov:wasDerivedFrom :po38, :po39, :po40, :po41, :lo53, :lo54, :lo55, :lo56, :lo57, :lo58, :lo59 .
+
+:pr10 a roar:PersonReconstruction ;
+	rdfs:label "Antonia Cornelia Schalk" ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Antonia Cornelia" ;
+		pnv:baseSurname "Schalk" ;
+		pnv:literalName "Antonia Cornelia Schalk" ;
+	] ;
+	bio:birth [
+		a bio:Birth ;
+		sem:hasTimeStamp "1890-05-12"^^xsd:date ;
+		bio:place <http://www.wikidata.org/entity/Q33439227> ;
+		bio:principal :pr10 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Gorinchem" ;
+		geo:geoWithin <http://www.wikidata.org/entity/Q33439227> ;
+		schema:position "1"^^xsd:integer ;
+		sem:hasEarliestEndTimeStamp "1907-07-10"^^xsd:date ;
+		roar:role "resident" 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "ona v. Eeghenstr. 25" ;
+		geo:geoWithin <https://adamlink.nl/geo/address/A132107> ;
+		schema:position "2"^^xsd:integer ;
+		sem:hasLatestBeginTimeStamp "1907-07-10"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1909-12-30"^^xsd:date ;
+		roar:role "resident" 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Blauwe Haansteeg B324" ;
+		geo:geoWithin <http://www.wikidata.org/entity/Q18956600> ;
+		schema:position "3"^^xsd:integer ;
+		sem:hasLatestBeginTimeStamp "1909-12-30"^^xsd:date ;
+		roar:role "resident" 
+	] ;
+	prov:wasDerivedFrom :po37, :lo50, :lo51, :lo52 .
+
+:pr11 a roar:PersonReconstruction ;
+	rdfs:label "Neeltje Dorleijn" ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Neeltje" ;
+		pnv:baseSurname "Dorleijn" ;
+		pnv:literalName "Neeltje Dorleijn" ;
+	] ;
+	bio:birth [
+		a bio:Birth ;
+		sem:hasTimeStamp "1909-11-07"^^xsd:date ;
+		bio:place <http://www.wikidata.org/entity/Q1785561> ;
+		bio:principal :pr11 
+	] ;
+	prov:wasDerivedFrom :po42 .
+
+:pr12 a roar:PersonReconstruction ;
+	rdfs:label "Maria Samonig" ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Maria" ;
+		pnv:baseSurname "Samonig" ;
+		pnv:literalName "Maria Samonig" ;
+	] ;
+	bio:birth [
+		a bio:Birth ;
+		sem:hasTimeStamp "1903-11-16"^^xsd:date ;
+		bio:place <http://sws.geonames.org/2772043/> ;
+		bio:principal :pr12 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Zirl" ;
+		geo:geoWithin <http://www.wikidata.org/entity/Q206000> ;
+		schema:position "1"^^xsd:integer ;
+		sem:hasEarliestEndTimeStamp "1934-05-24"^^xsd:date ;
+		roar:role "resident" 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Albr. Dürerstr. 43" ;
+		geo:geoWithin <https://adamlink.nl/geo/address/A173060> ;
+		schema:position "2"^^xsd:integer ;
+		sem:hasLatestBeginTimeStamp "1934-05-24"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1935-05-28"^^xsd:date ;
+		roar:role "resident" 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Schubertstr. 70" ;
+		geo:geoWithin <https://adamlink.nl/geo/address/A173908> ;
+		schema:position "3"^^xsd:integer ;
+		sem:hasLatestBeginTimeStamp "1935-05-28"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1937-02-15"^^xsd:date ;
+		roar:role "resident" 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "vBaerlestr 16" ;
+		geo:geoWithin <https://adamlink.nl/geo/address/A131846> ;
+		schema:position "4"^^xsd:integer ;
+		sem:hasLatestBeginTimeStamp "1937-02-15"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1937-03-30"^^xsd:date ;
+		roar:role "resident" 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Zirl" ;
+		geo:geoWithin <http://www.wikidata.org/entity/Q206000> ;
+		schema:position "5"^^xsd:integer ;
+		sem:hasLatestBeginTimeStamp "1937-03-30"^^xsd:date ;
+		roar:role "resident" 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Mallestig" ;
+		geo:geoWithin <http://sws.geonames.org/2772043/> ;
+		schema:position "6"^^xsd:integer ;
+		sem:hasEarliestEndTimeStamp "1937-12-17"^^xsd:date ;
+		roar:role "resident" 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Minervalaan 80 I" ;
+		geo:geoWithin <https://adamlink.nl/geo/address/A173990> ;
+		schema:position "7"^^xsd:integer ;
+		sem:hasLatestBeginTimeStamp "1937-12-17"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1938-03-08"^^xsd:date ;
+		roar:role "resident" 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Murillostr 8 bv" ;
+		geo:geoWithin <https://adamlink.nl/geo/address/A173272> ;
+		schema:position "8"^^xsd:integer ;
+		sem:hasLatestBeginTimeStamp "1938-03-08"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1939-12-04"^^xsd:date ;
+		roar:role "resident" 
+	] ;
+	prov:wasDerivedFrom :po50, :po51, :po52, :po53, :po54, :po55, :lo74, :lo75, :lo76, :lo77, :lo78, :lo79, :lo80, :lo81, :lo82, :lo83, :lo84, :lo85, :lo86, :lo87, :lo88, :lo89, :lo90, :lo91, :lo92, :lo93, :lo94, :lo95 .
+
+:pr13 a roar:PersonReconstruction ;
+	rdfs:label "Josefine Samonig" ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Josefine" ;
+		pnv:baseSurname "Samonig" ;
+		pnv:literalName "Josefine Samonig" ;
+	] ;
+	bio:birth [
+		a bio:Birth ;
+		sem:hasTimeStamp "1919-10-19"^^xsd:date ;
+		bio:place <http://sws.geonames.org/2774786/> ;
+		bio:principal :pr13 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Goritschach" ;
+		geo:geoWithin <https://www.geonames.org/2778326/> ;
+		schema:position "1"^^xsd:integer ;
+		sem:hasEarliestEndTimeStamp "1936-06-05"^^xsd:date ;
+		roar:role "resident" 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Rubensstraat 36 hs" ;
+		geo:geoWithin <https://adamlink.nl/geo/address/A173178> ;
+		schema:position "2"^^xsd:integer ;
+		sem:hasLatestBeginTimeStamp "1936-06-05"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1936-09-16"^^xsd:date ;
+		roar:role "resident" 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Scheldestraat 17 I" ;
+		geo:geoWithin <https://adamlink.nl/geo/address/A176904> ;
+		schema:position "3"^^xsd:integer ;
+		sem:hasLatestBeginTimeStamp "1936-09-16"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1937-10-26"^^xsd:date ;
+		roar:role "resident" 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Nr. Amstell. 220 bov" ;
+		geo:geoWithin <https://adamlink.nl/geo/address/A176892> ;
+		schema:position "4"^^xsd:integer ;
+		sem:hasLatestBeginTimeStamp "1937-10-26"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1939-02-02"^^xsd:date ;
+		roar:role "resident" 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Goritschach" ;
+		geo:geoWithin <https://www.geonames.org/2778326/> ;
+		schema:position "5"^^xsd:integer ;
+		sem:hasLatestBeginTimeStamp "1939-02-02"^^xsd:date ;
+		roar:role "resident" 
+	] ;
+	prov:wasDerivedFrom :po56, :po57, :po58, :po59, :po60, :lo96, :lo97, :lo98, :lo99, :lo100, :lo101, :lo102, :lo103, :lo104, :lo105, :lo106, :lo107, :lo108, :lo109 .
+
+:pr14 a roar:PersonReconstruction ;
+	rdfs:label "Ursula Samonig" ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Ursula" ;
+		pnv:baseSurname "Samonig" ;
+		pnv:literalName "Ursula Samonig" ;
+	] ;
+	bio:birth [
+		a bio:Birth ;
+		sem:hasTimeStamp "1902-10-21"^^xsd:date ;
+		bio:place <http://sws.geonames.org/2772043/> ;
+		bio:principal :pr14 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Mallestig" ;
+		geo:geoWithin <http://sws.geonames.org/2772043/> ;
+		schema:position "1"^^xsd:integer ;
+		sem:hasEarliestEndTimeStamp "1934-03-06"^^xsd:date ;
+		roar:role "resident" 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Parnassusweg 24 II" ;
+		geo:geoWithin <https://adamlink.nl/geo/address/A174239> ;
+		schema:position "2"^^xsd:integer ;
+		sem:hasLatestBeginTimeStamp "1934-03-06"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1934-06-29"^^xsd:date ;
+		roar:role "resident" 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Tesselschadestr 22" ;
+		geo:geoWithin <https://adamlink.nl/geo/address/A137072> ;
+		schema:position "3"^^xsd:integer ;
+		sem:hasLatestBeginTimeStamp "1934-06-29"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1938-04-15"^^xsd:date ;
+		roar:role "resident" 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Mallestig" ;
+		geo:geoWithin <http://sws.geonames.org/2772043/> ;
+		schema:position "4"^^xsd:integer ;
+		sem:hasLatestBeginTimeStamp "1938-04-15"^^xsd:date ;
+		roar:role "resident" 
+	] ;
+	prov:wasDerivedFrom :po61, :po62, :po63, :lo110, :lo111, :lo112, :lo113, :lo114, :lo115, :lo116, :lo117, :lo118, :lo119 .
+
+:pr15 a roar:PersonReconstruction ;
+	rdfs:label "Hilda Simonitsch" ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Hilda" ;
+		pnv:baseSurname "Simonitsch" ;
+		pnv:literalName "Hilda Simonitsch" ;
+	] ;
+	bio:birth [
+		a bio:Birth ;
+		sem:hasTimeStamp "1916-10-08"^^xsd:date ;
+		bio:place <https://sws.geonames.org/2770375/> ;
+		bio:principal :pr15 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Mallestig" ;
+		geo:geoWithin <http://sws.geonames.org/2772043/> ;
+		schema:position "1"^^xsd:integer ;
+		sem:hasEarliestEndTimeStamp "1933-09-02"^^xsd:date ;
+		roar:role "resident" 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Ciostraat 20 II" ;
+		geo:geoWithin <https://adamlink.nl/geo/address/A173105> ;
+		schema:position "2"^^xsd:integer ;
+		sem:hasLatestBeginTimeStamp "1933-09-02"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1936-10-08"^^xsd:date ;
+		roar:role "resident" 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Oostenrijk" ;
+		geo:geoWithin <http://www.wikidata.org/entity/Q40> ;
+		schema:position "3"^^xsd:integer ;
+		sem:hasLatestBeginTimeStamp "1936-10-08"^^xsd:date ;
+		roar:role "resident" 
+	] ;
+	prov:wasDerivedFrom :po65, :po67, :lo122, :lo123, :lo124, :lo127, :lo128, :lo129 .
+
+:pr16 a roar:PersonReconstruction ;
+	rdfs:label "Andor Latzko" ;
+	owl:sameAs <http://www.wikidata.org/entity/Q88339> ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Andor" ;
+		pnv:baseSurname "Latzko" ;
+		pnv:literalName "Andor Latzko" ;
+	] ;
+	bio:birth [
+		a bio:Birth ;
+		sem:hasTimeStamp "1876-09-01"^^xsd:date ;
+		bio:place <http://www.wikidata.org/entity/Q1781> ;
+		bio:principal :pr16 
+	] ;
+	bio:death [
+		a bio:Death ;
+		sem:hasTimeStamp "1943-09-11"^^xsd:date ;
+		bio:place <http://www.wikidata.org/entity/Q727> ;
+		bio:principal :pr16 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Salzburg" ;
+		geo:geoWithin <http://www.wikidata.org/entity/Q34713> ;
+		schema:position "1"^^xsd:integer ;
+		sem:hasEarliestEndTimeStamp "1931-10-12"^^xsd:date ;
+		roar:role "resident" 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Cliostraat 20 bhs" ;
+		geo:geoWithin <https://adamlink.nl/geo/address/A173105> ;
+		schema:position "2"^^xsd:integer ;
+		sem:hasLatestBeginTimeStamp "1931-10-12"^^xsd:date ;
+		sem:hasEarliestEndTimeStamp "1939-10-31"^^xsd:date ;
+		roar:role "resident" 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Waalstr. 37 II" ;
+		geo:geoWithin <https://adamlink.nl/geo/address/A178387> ;
+		schema:position "3"^^xsd:integer ;
+		sem:hasLatestBeginTimeStamp "1939-10-31"^^xsd:date ;
+		roar:role "resident" 
+	] ;
+	prov:wasDerivedFrom :po66, :po68, :po69, :po70, :lo125, :lo126, :lo130, :lo131, :lo132, :lo133, :lo134 .
+
+:pr17 a roar:PersonReconstruction ;
+	rdfs:label "Ettel Krämer" ;
+	pnv:hasName [ 
+		a pnv:PersonName ;
+		pnv:givenName "Ettel" ;
+		pnv:baseSurname "Krämer" ;
+		pnv:literalName "Ettel Krämer" ;
+	] ;
+	bio:birth [
+		a bio:Birth ;
+		sem:hasTimeStamp "1910-03-24"^^xsd:date ;
+		bio:place <https://sws.geonames.org/3100329/> ;
+		bio:principal :pr17 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Scheldestr. 17 I" ;
+		geo:geoWithin <https://adamlink.nl/geo/address/A176904> ;
+		schema:position "1"^^xsd:integer ;
+		sem:hasEarliestEndTimeStamp "1943-11-01"^^xsd:date ;
+		roar:role "resident" 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "Westerbork Lager" ;
+		geo:geoWithin <http://www.wikidata.org/entity/Q323420> ;
+		schema:position "2"^^xsd:integer ;
+		sem:hasLatestBeginTimeStamp "1943-11-01"^^xsd:date ;
+		roar:role "resident" 
+	] ;
+	roar:hasLocation [
+		a roar:Location ;
+		rdfs:label "B.B." ;
+		geo:geoWithin <http://www.wikidata.org/entity/Q7332> ;
+		schema:position "3"^^xsd:integer ;
+		sem:hasEarliestEndTimeStamp "1945-01-20"^^xsd:date ;
+		roar:role "resident" 
+	] ;
+	prov:wasDerivedFrom :po71, :po72, :lo135, :lo136, :lo138 .
 
